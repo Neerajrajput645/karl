@@ -1,0 +1,13 @@
+// {
+//   "type": "service_account",
+//   "project_id": "fintech-d0fc5",
+//   "private_key_id": "092d1b3ba31380930ee02e71eb87a8a25ee95ffd",
+//   "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCj5AemvVHAyF0Q\nqlLOwhRX6flfyTsf+gTwSU6tJM6GlUp17mxfhGFb9xjeLTGC7FnuXCbxqzJUJ9F3\n+RdxVcxIY+MAnDbzm9GK5F2gv4Z5y5cn2TUCDzaS8Zq7Tq1oW3pJOiiw1TCjaYsk\nZfNa2FcjFK7ObA5X5b62FogCs7VBnXffucomH87et/Wo7k1B/Pf7ahloXwOPe2eb\ns7lWrxN53S+8CiGXYMkiyYQ9hJ54VUlgNO21CpSpMiySqKUGnnTxCAbCiJKkub7R\n14BxH5zK/EEhmGCSxcuvzViz1I0ER4ZkoT3wmtObEOJpkzfI9LpuEHU0cq2AX7n6\nJRUTGkpRAgMBAAECggEAA/5rw4/h4vLbBjvBVXeoLWGGtcNqjv+dsNGXgsuGoyPW\nlv/AuTXplbc0fl8PcaFi+maZXhqp+QAoqA3cWPMiXZn+C1rzMZ3wpfvlTnRWYYfR\nItvloVuHrN5pgvKikgxHI0tRGCiU1SmedfxMSTCkFHc1wJLkaVbQXkF3rmms00jK\nKbzKzS2kQsJ+796N/GLl5kiouVCaE5oYFoDe5jmNUDQ7YYhs1uaKsZ67LIZztJRh\n/evxgFn4Rw2jzwk5nScuCJsZdo5CJpEELih54uoNloSTfZxw9Hs7y6oC/bZgyIOp\n+qrUtrvPI42UhA5l0j6mRBnB9ZHGBf5Km9Ph4My/QQKBgQDQm13wUrPRdwMloowd\nXU69NhUONELZzT/JOjhR0zulFmxRoUMrpTXkNv9N6rBLxd7wu9JpK7OixApZYwHR\nW3DibC2p5pcLcLOUCCV8kcJ3xMZS1y+kUfN9x73R+OyEEYsCOo1awxLc5xYNFZgr\nfZNhz5ZEuTXWzopZzv9CVZ+vQQKBgQDJH/WJbEgVbMtpoOYIRR2/orqy/FsEESFj\n4LZWjpvzEjHJxl+NIaTK/NAqhVeMDB9vbNz+sY7d706yydwAHqm9jWCZH/4yyUgJ\n4SnWhtxtjlq3jNoc6b3P+L37VAxplTP/JauDyts0+CuC/Cxbr/rJQX4oNsEyYVr5\ngEFkEVznEQKBgQCkiNbYFbME1LTju0h+ZLkVHhIPaQMNXQkhg00mpNAXjw8Sd3pO\nc3mFLifCYgh5S3FjORFlqHWAPNXY2PF3GoN341FE/75E5LiPWrmOfjz/UHIIpvdJ\nyOWfYKsEcSzDoj6dHGefndtD5vSKj2y9aMeVTzE7tUWUzsVqvoyw2m4fwQKBgQCp\n6ILgnoZi+y74xEGwuNsB2vKIZKJrVCF2JA9GHmHmvfcrs5djPgnepich1NX57P/d\nfQVRcST1nsZISjm+LClPhhEWKy3vL5XZKsvSfMnZD8rZh3d3t4twF34/xWhbBf4Q\nTX2Q8B2xqPnxRSIgLxHZVafDR0Z9TjuxzcTwSa7HUQKBgGVzzconVD6sS6GbqWOk\njz3WG0YTCYcuPmeqomjXtNMG14C5AoXMH8bCv7jnHqO2jFU+24t8n83ZVcugkv1I\nK8h+bR8hpb3SBJ369IL0/+VFvCS3SFFTJzPUXO9o5R8bj/aKuYOFjOcso5A/GgcZ\nWmvdEBqOUsV5OZwfG9Hun53X\n-----END PRIVATE KEY-----\n",
+//   "client_email": "firebase-adminsdk-7atn1@fintech-d0fc5.iam.gserviceaccount.com",
+//   "client_id": "116126809585295444557",
+//   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//   "token_uri": "https://oauth2.googleapis.com/token",
+//   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-7atn1%40fintech-d0fc5.iam.gserviceaccount.com",
+//   "universe_domain": "googleapis.com"
+// }

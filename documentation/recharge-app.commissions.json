@@ -1,0 +1,170 @@
+[{
+  "_id": {
+    "$oid": "6918450beb07f8791a262907"
+  },
+  "name": "Airtel",
+  "commission": 2,
+  "icon": "uploads/operator/airtel.jpg",
+  "operatorType": "mobile",
+  "status": true,
+  "updatedAt": {
+    "$date": "2025-11-15T11:11:46.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a262908"
+  },
+  "name": "Jio",
+  "commission": 3,
+  "icon": "uploads/operator/jio.jpg",
+  "operatorType": "mobile",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a262909"
+  },
+  "name": "VI",
+  "commission": 4.5,
+  "icon": "uploads/operator/vi.jpg",
+  "operatorType": "mobile",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a26290a"
+  },
+  "name": "BSNL",
+  "commission": 5,
+  "icon": "uploads/operator/bsnl.jpg",
+  "operatorType": "mobile",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a26290b"
+  },
+  "name": "Airtel TV",
+  "commission": 1,
+  "icon": "uploads/operator/airtel.jpg",
+  "operatorType": "dth",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a26290c"
+  },
+  "name": "Sun Direct",
+  "commission": 1.5,
+  "icon": "uploads/operator/sun_tv.jpg",
+  "operatorType": "dth",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a26290d"
+  },
+  "name": "Videocon DTH",
+  "commission": 1.2,
+  "icon": "uploads/operator/videocon.jpg",
+  "operatorType": "dth",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a26290e"
+  },
+  "name": "Tata Sky",
+  "commission": 2.1,
+  "icon": "uploads/operator/tata_sky.jpg",
+  "operatorType": "dth",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a26290f"
+  },
+  "name": "Water",
+  "commission": 3,
+  "icon": "uploads/services/water.png",
+  "operatorType": "bbps",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a262910"
+  },
+  "name": "Gas",
+  "commission": 3,
+  "icon": "uploads/services/Book-gas-cylinder-icon.png",
+  "operatorType": "bbps",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a262911"
+  },
+  "name": "Electricity",
+  "commission": 4,
+  "icon": "uploads/services/electricity-bill-icon.png",
+  "operatorType": "bbps",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a262912"
+  },
+  "name": "Insurance",
+  "commission": 3,
+  "icon": "uploads/services/insurance.png",
+  "operatorType": "bbps",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a262913"
+  },
+  "name": "Postpaid",
+  "commission": 2,
+  "icon": "uploads/services/postpaid.png",
+  "operatorType": "bbps",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a262914"
+  },
+  "name": "Fast Card",
+  "commission": 2,
+  "icon": "uploads/services/fastag.png",
+  "operatorType": "bbps",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6918450beb07f8791a262915"
+  },
+  "name": "Google Play",
+  "commission": 2.12,
+  "icon": "uploads/services/google-play.png",
+  "operatorType": "bbps",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "69185cf21708965b92f986ea"
+  },
+  "name": "AAA",
+  "operatorType": "mobile",
+  "commission": 2,
+  "icon": "uploads/commissions/1763204338913-adsign.jpg",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-11-15T10:58:58.916Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-15T10:58:58.916Z"
+  },
+  "__v": 0
+}]

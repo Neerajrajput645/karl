@@ -1,0 +1,1607 @@
+[{
+  "_id": {
+    "$oid": "64c9e6861efc768da459ef0c"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1745668722159-icon_set_Pratima_Landline._CB616315951_.png",
+  "isCoupon": false,
+  "name": "Landline",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1747113350444"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748636461317"
+    }
+  },
+  "__v": 0,
+  "route": "Landline",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e9611efc768da459ef30"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693388473176-ClubAsso.webp",
+  "isCoupon": false,
+  "name": "Club Assoc",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690954081392"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628421572"
+    }
+  },
+  "__v": 0,
+  "route": "ClubAssociation",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e9861efc768da459ef36"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693388494314-MunicipalService.webp",
+  "isCoupon": false,
+  "name": "Municipality",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690954118188"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628423714"
+    }
+  },
+  "__v": 0,
+  "route": "MunicipalServiceHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e91b1efc768da459ef27"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745668781878-icon_set_Pratima_M_Tax._CB616315951_.png",
+  "isCoupon": false,
+  "name": "Housing",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690954011945"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628419006"
+    }
+  },
+  "__v": 0,
+  "route": "HousingHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e8f81efc768da459ef21"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745668760286-Desktop_APD_EMI-new._CB612762929_.png",
+  "isCoupon": false,
+  "name": "EMI",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953976297"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628417475"
+    }
+  },
+  "__v": 0,
+  "route": "LoanRepayHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e9731efc768da459ef33"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745668859879-icon_set_Pratima_M_Tax._CB616315951_.png",
+  "isCoupon": false,
+  "name": "Tax",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690954099838"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628422911"
+    }
+  },
+  "__v": 0,
+  "route": "MunicipalTaxHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e9501efc768da459ef2d"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693388457630-SubscriptionFee.webp",
+  "isCoupon": false,
+  "name": "Subscription",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690954064577"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628420732"
+    }
+  },
+  "__v": 0,
+  "route": "SubscriptionHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64f4e0a4011c43d0fd955ccd"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693769892892-KanhaPe_Logo-(1).png",
+  "isCoupon": false,
+  "name": "QR",
+  "status": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1693769892916"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1739549756702"
+    }
+  },
+  "__v": 0,
+  "isShow": false
+},{
+  "_id": {
+    "$oid": "66128e3e8ac238075037ba4c"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1712492094505-personal_loan.png",
+  "isCoupon": false,
+  "name": "Personal Loan",
+  "status": false,
+  "isShow": false,
+  "type": "GCB",
+  "route": "",
+  "section": "travel",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712492094521"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1740652189339"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "661292ab8ac238075037c1e1"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1712493227211-bus.webp",
+  "isCoupon": false,
+  "name": "ONLINE_STORE",
+  "status": false,
+  "isShow": true,
+  "type": "GCB",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712493227214"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1745669212297"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eeecdb58eea0d63aecedfe"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693379803596-Wallet.webp",
+  "isCoupon": false,
+  "name": "SIGNUP",
+  "status": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1693379803600"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1720262523758"
+    }
+  },
+  "__v": 0,
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e6571efc768da459ef06"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1745668704827-icon_set_Pratima_Elec._CB616315948_.png",
+  "isCoupon": false,
+  "name": "Electricity",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953303751"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628409532"
+    }
+  },
+  "__v": 0,
+  "route": "ElectricityHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9ebca1fe04d0e8dbcecff"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1745668871505-icon_set_Pratima_Ins_Premium._CB616315948_.png",
+  "isCoupon": false,
+  "name": "Insurance",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690954698062"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628425069"
+    }
+  },
+  "__v": 0,
+  "route": "Insurance",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "66112659d1027d66e54f4a9f"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1712399961707-train.webp",
+  "isCoupon": false,
+  "name": "Train",
+  "status": true,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "https://inr.deals/syqSR4",
+  "section": "travel",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712399961716"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751040447975"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c9e5bf1efc768da459ef00"
+  },
+  "percent": 10,
+  "icon": "uploads/services/1745668683310-icon_set_Pratima_Mobile_Rec._CB616315948_.png",
+  "isCoupon": false,
+  "name": "Recharge",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953151358"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628408155"
+    }
+  },
+  "__v": 0,
+  "route": "MobileHome",
+  "section": "recharge",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64eeed1358eea0d63aecee0a"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693379859154-Wallet.webp",
+  "isCoupon": false,
+  "name": "KYC_VERIFY",
+  "status": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1693379859156"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1729704880561"
+    }
+  },
+  "__v": 0,
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "66129abd8ac238075037d36c"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1713088827114-Bike-Insurance.png",
+  "isCoupon": false,
+  "name": "Bike Insurance",
+  "status": false,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "https://inr.deals/bDdG87",
+  "section": "insurance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712495293181"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751043037230"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6612d47ff4aed1c2c5d667ed"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1712510079026-bus.webp",
+  "isCoupon": false,
+  "name": "GAMES",
+  "status": false,
+  "isShow": true,
+  "type": "GCB",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712510079028"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1747051327261"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c9e5de1efc768da459ef03"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1745668699408-icon_set_Pratima_DTH._CB616315948_.png",
+  "isCoupon": false,
+  "name": "DTH",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953182632"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628408350"
+    }
+  },
+  "__v": 0,
+  "route": "DTH",
+  "section": "recharge",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e8841efc768da459ef18"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1693388385781-flight.webp",
+  "isCoupon": false,
+  "name": "Flight",
+  "status": false,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953860645"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751042887045"
+    }
+  },
+  "__v": 0,
+  "route": "https://inr.deals/XGYoy4",
+  "section": "travel",
+  "isShow": false
+},{
+  "_id": {
+    "$oid": "661061ecda6832bf278254e1"
+  },
+  "percent": 3,
+  "icon": "uploads/services/1745668990300-APD_icon_GPRC._CB594689751_.png",
+  "isCoupon": false,
+  "name": "Google Play",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "GooglePlay",
+  "section": "finance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712349676199"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748872102382"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c9e6e81efc768da459ef15"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693388376497-bus.webp",
+  "isCoupon": false,
+  "name": "Bus",
+  "status": false,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953448351"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751040525073"
+    }
+  },
+  "__v": 0,
+  "route": "https://inr.deals/5MiH7a",
+  "section": "travel",
+  "isShow": false
+},{
+  "_id": {
+    "$oid": "64c9e9351efc768da459ef2a"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693388449224-HospitalBills.webp",
+  "isCoupon": false,
+  "name": "Hospital Bills",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690954037327"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628419996"
+    }
+  },
+  "__v": 0,
+  "route": "HospitalsBillsHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e6c51efc768da459ef12"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745668740665-icon_set_Pratima_Edu_fee._CB616315948_.png",
+  "isCoupon": false,
+  "name": "Education Fee",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953413860"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628412976"
+    }
+  },
+  "__v": 0,
+  "route": "EducationFee",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "661ba9ca09d627acc2e92178"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1713088970456-Term-Life-Insurance.png",
+  "isCoupon": false,
+  "name": "Term Life Insurance",
+  "status": true,
+  "isShow": true,
+  "type": "GCB",
+  "route": "https://clnk.in/uufG",
+  "section": "insurance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1713088970457"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1713088970457"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64f0cd9d6165004bfcdbed24"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693502877433-KYC.png",
+  "isCoupon": false,
+  "name": "EDIT_PROFILE",
+  "status": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1693502877438"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1731925551866"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66129ad58ac238075037d38e"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1712495317229-car_insurance_beacd46f9a.png",
+  "isCoupon": false,
+  "name": "Car Insurance",
+  "status": false,
+  "isShow": true,
+  "type": "GCB",
+  "route": "https://clnk.in/uuYo",
+  "section": "insurance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712495317230"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1717168900340"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c9e9091efc768da459ef24"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745668767465-icon_set_Pratima_CC_Bill._CB616315951_.png",
+  "isCoupon": false,
+  "name": "Credit Card",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953993560"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628418222"
+    }
+  },
+  "__v": 0,
+  "route": "CreditCardHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64eeecb758eea0d63aecedf6"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693379767022-Wallet.webp",
+  "isCoupon": false,
+  "name": "ADD_MONEY",
+  "status": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1693379767025"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628430487"
+    }
+  },
+  "__v": 0,
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e66d1efc768da459ef09"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1745668710482-APD_icon_Amazon_Pay_ICICI_Fastag._CB600226984_.png",
+  "isCoupon": false,
+  "name": "Fastag",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953325687"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628410407"
+    }
+  },
+  "__v": 0,
+  "route": "FastagHome",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64c9e8a21efc768da459ef1b"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1693388394739-Hotels.webp",
+  "isCoupon": false,
+  "name": "Hotels",
+  "status": false,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953890263"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751042965970"
+    }
+  },
+  "__v": 0,
+  "route": "https://inr.deals/JGaAMm",
+  "section": "travel",
+  "isShow": false
+},{
+  "_id": {
+    "$oid": "64c9e69d1efc768da459ef0f"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1745668731399-icon_set_Pratima_LPG._CB616315951_.png",
+  "isCoupon": false,
+  "name": "LPG",
+  "status": true,
+  "type": "Cashback",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953373068"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628410954"
+    }
+  },
+  "__v": 0,
+  "route": "LPG",
+  "section": "finance",
+  "isShow": true
+},{
+  "_id": {
+    "$oid": "64eeed3858eea0d63aecee12"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693379896516-Wallet.webp",
+  "isCoupon": false,
+  "name": "PROFILE_UPLOAD",
+  "status": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1693379896518"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1735466243596"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "661ba8e809d627acc2e92097"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1713088744829-Health-Insurance.png",
+  "isCoupon": false,
+  "name": "Health Insurnce",
+  "status": true,
+  "isShow": true,
+  "type": "GCB",
+  "route": "https://clnk.in/uufI",
+  "section": "insurance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1713088744834"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1716806248254"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eeec7d58eea0d63aecedec"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1693379709857-Wallet.webp",
+  "isCoupon": false,
+  "name": "SEND_MONEY",
+  "status": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1693379709866"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1735381489863"
+    }
+  },
+  "__v": 0,
+  "isShow": false
+},{
+  "_id": {
+    "$oid": "668cc3ccdf0e69e24a4d282a"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1720501196936-download-(2).png",
+  "isCoupon": false,
+  "name": "BANNER_SHOW",
+  "status": true,
+  "isShow": false,
+  "type": "GCB",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1720501196942"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1747053466905"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6738c8804d9128a4978b9fbe"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1731774592383-WhatsApp-Image-2024-05-27-at-6.2.png",
+  "isCoupon": false,
+  "name": "LOGIN",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1731774592393"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1731776293064"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "674251eb06e9d219f7676b40"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1732399595433-AddWallet.png",
+  "isCoupon": false,
+  "name": "WALLET_BANNER",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1732399595452"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1732713522676"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6742520c06e9d219f7676b50"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1732399628157-AddWallet.png",
+  "isCoupon": false,
+  "name": "RECHARGE_BANNER",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1732399628160"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1734874235342"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6742522906e9d219f7676b5a"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1732399657638-AddWallet.png",
+  "isCoupon": false,
+  "name": "BILL_BANNER",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1732399657642"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1732724209449"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "674892de04fea5aa01fad5fe"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1732809438961-AddWallet.png",
+  "isCoupon": false,
+  "name": "CONTACT_SHOW",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1732809438967"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748767771201"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67711e85fbeaedfe65c2d7c0"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1735466629505-trusted.png",
+  "isCoupon": false,
+  "name": "DIRECT_UPI",
+  "status": true,
+  "isShow": true,
+  "type": "GCB",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1735466629534"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748636449762"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6785748f175067b3c0359594"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745668897444-icon_set_Pratima_Water._CB616315951_.png",
+  "isCoupon": false,
+  "name": "Water",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "WaterHome",
+  "section": "finance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1736799375448"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748636452038"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "678575d63fde9ce75e7eb2a6"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1745668902639-icon_set_Pratima_Pipegas._CB616315948_.png",
+  "isCoupon": false,
+  "name": "Gas",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "GasHome",
+  "section": "finance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1736799702568"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748636453307"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6785784516e82b262d375c03"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745668908819-icon_set_Pratima_CableTV._CB616315948_.png",
+  "isCoupon": false,
+  "name": "Cable",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "CableHome",
+  "section": "finance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1736800325168"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748636453856"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "679a35d0ffc97eb2baeb06f3"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1745668928510-icon_set_Pratima_Braodband._CB616315948_.png",
+  "isCoupon": false,
+  "name": "Broadband",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "Broadband",
+  "section": "finance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1738159568606"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748636459422"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67c040895d4de2126a80250e"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1740652681650-personal_loan.png",
+  "isCoupon": false,
+  "name": "SHOW_PREPAID",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1740652681665"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1747052768480"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67f7a66f3b1b449763eb7b58"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1744283247856-Recharge.webp",
+  "isCoupon": false,
+  "name": "SOCIAL_SHOW",
+  "status": false,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1744283247864"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751524835815"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "680ccca69a9e3753074dad51"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745669286437-icon_set_Pratima_Mobile_Rec._CB616315948_.png",
+  "isCoupon": false,
+  "name": "BILL_PAYMENT_SECTION",
+  "status": false,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1745669286451"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1750403738186"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "680ccce29a9e3753074dad6e"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1745669346835-icon_set_Pratima_Mobile_Rec._CB616315948_.png",
+  "isCoupon": false,
+  "name": "RECHARGE_SECTION",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1745669346839"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1745669372538"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6821e5b508af377819e49fd4"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1747051956663-images.png",
+  "isCoupon": false,
+  "name": "BOTTOM_BANNER",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1747051957572"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1747051957572"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6823069f9844c98ade696621"
+  },
+  "percent": 5,
+  "icon": "uploads/services/1747125919671-icon_set_Pratima_M_Postoaid._CB616315951_.png",
+  "isCoupon": false,
+  "name": "Postpaid",
+  "status": true,
+  "isShow": true,
+  "type": "Cashback",
+  "route": "MobilePostpaid",
+  "section": "finance",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690953413850"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748628411734"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662beea70a5a95c5da997b"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526382684-Credit.png",
+  "isCoupon": false,
+  "name": "TRANSFER",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526382688"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526416982"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662bfaa70a5a95c5da9981"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526394130-Credit.png",
+  "isCoupon": false,
+  "name": "GIFT",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526394131"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526415080"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662c06a70a5a95c5da9987"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526406829-Credit.png",
+  "isCoupon": false,
+  "name": "TRAVEL",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526406831"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526412581"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662c95a70a5a95c5da99b1"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526549680-Credit.png",
+  "isCoupon": false,
+  "name": "PRIME",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526549682"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526856674"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662ca2a70a5a95c5da99b7"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526562263-Credit.png",
+  "isCoupon": false,
+  "name": "MERCHANT",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526562264"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526855175"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662caba70a5a95c5da99bd"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526571551-Credit.png",
+  "isCoupon": false,
+  "name": "BANK_ACCOUNT",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526571553"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526854001"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662cb4a70a5a95c5da99c3"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526580093-Credit.png",
+  "isCoupon": false,
+  "name": "DONATION",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526580095"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526852338"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662ccca70a5a95c5da99dc"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526604780-Credit.png",
+  "isCoupon": false,
+  "name": "Shopping",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526604782"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526850719"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662ceda70a5a95c5da99f0"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526637296-Credit.png",
+  "isCoupon": false,
+  "name": "NEARBY",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526637298"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526846524"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662cfba70a5a95c5da99f6"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526651157-Credit.png",
+  "isCoupon": false,
+  "name": "LOAN",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526651167"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526845145"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662d02a70a5a95c5da99fc"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526658220-Credit.png",
+  "isCoupon": false,
+  "name": "VOUCHER",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526658222"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526843583"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662d11a70a5a95c5da9a0c"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526673993-Credit.png",
+  "isCoupon": false,
+  "name": "INSURANCE",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526673995"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526841567"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662d1ba70a5a95c5da9a12"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526683311-Credit.png",
+  "isCoupon": false,
+  "name": "FEATURED_APPS",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526683313"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526840181"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662d2ea70a5a95c5da9a22"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526702105-Credit.png",
+  "isCoupon": false,
+  "name": "SHOW_GOPOINT_CONVERT",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526702108"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526838517"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "68662d36a70a5a95c5da9a28"
+  },
+  "percent": 0,
+  "icon": "uploads/services/1751526710319-Credit.png",
+  "isCoupon": false,
+  "name": "QUICK_SERVICE",
+  "status": false,
+  "isShow": false,
+  "type": "Cashback",
+  "route": "",
+  "section": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1751526710321"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1751526835780"
+    }
+  },
+  "__v": 0
+}]

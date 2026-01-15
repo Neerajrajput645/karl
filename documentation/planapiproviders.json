@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "685e8f5cc23df1632d29ccd4"
+  },
+  "providerCode": 1,
+  "providerName": "Mobikwik",
+  "ipAddress": "192.168.1.10",
+  "isTrue": false,
+  "updatedAt": {
+    "$date": "2025-06-28T11:17:42.877Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685e8f5cc23df1632d29ccd5"
+  },
+  "providerCode": 2,
+  "providerName": "PlanAPI",
+  "ipAddress": "192.168.1.20",
+  "isTrue": true,
+  "updatedAt": {
+    "$date": "2025-06-28T11:17:42.877Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685fcf6112b4a9d36fb0f010"
+  },
+  "providerCode": 1111111,
+  "providerName": "Idea jo badal aap ki duniya",
+  "ipAddress": "::1",
+  "isTrue": false,
+  "createdAt": {
+    "$date": "2025-06-28T11:17:53.351Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-28T11:17:53.351Z"
+  },
+  "__v": 0
+}]

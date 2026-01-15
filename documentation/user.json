@@ -1,0 +1,47 @@
+{
+  "_id": {
+    "$oid": "6863ba7ffeb98116a8d7f9f9"
+  },
+  "deviceToken": "neeraj123",
+  "email": "neeraj@gmail.com",
+  "lastName": "sdsdfsd",
+  "firstName": "neeraj",
+  "phone": "8871265906",
+  "city": "",
+  "state": "",
+  "postalCode": "",
+  "ipAddress": "::1",
+  "dob": "",
+  "gender": "",
+  "avatar": "uploads\\users\\1751108890353-img.jpg",
+  "referBy": "",
+  "referBonus": false,
+  "referalId": "PDFZQBM",
+  "level": 0,
+  "recharge": true,
+  "dth": true,
+  "bbps": true,
+  "googlePlay": true,
+  "shopping": true,
+  "addMoney": true,
+  "sendMoney": true,
+  "editProfile": true,
+  "doNotNotify": false,
+  "mPin": "U2FsdGVkX1/B0HhWxHb/qRKygoRnhyk97drlmm8nh04=",
+  "status": true,
+  "isAgent": false,
+  "isPrime": false,
+  "isVerified": false,
+  "isMerchant": false,
+  "isFingerPrint": false,
+  "createdAt": {
+    "$date": "2025-06-27T12:01:45.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-01T11:06:53.619Z"
+  },
+  "__v": 0,
+  "wallet": {
+    "$oid": "685e8829034591cb604c643a"
+  }
+}

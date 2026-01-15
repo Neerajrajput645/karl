@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "685fcf0b12b4a9d36fb0effe"
+  },
+  "providerCode": 2,
+  "providerName": "BILLHUB",
+  "ipAddress": "1:1:1",
+  "isTrue": true,
+  "createdAt": {
+    "$date": "2025-06-28T11:16:27.063Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-28T11:16:27.063Z"
+  },
+  "__v": 0
+}]

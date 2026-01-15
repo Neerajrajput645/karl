@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "680cd1a29a9e3753074dadbb"
+  },
+  "name": "Flipkart",
+  "link": "https://fktr.in/rJHVeab",
+  "image": "uploads/affiliate/1745670562368-flipkart.jpg",
+  "status": true,
+  "description": "Share this deal with your friends & family. When they shop through your link, your earn profit.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1745670562372"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1745670562372"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "680cd38a9a9e3753074dae30"
+  },
+  "name": "Amazon",
+  "link": "https://bitli.in/INlDHtq",
+  "image": "uploads/affiliate/1745671116384-Amazon-(2).png",
+  "status": true,
+  "description": "Share this deal with your friends & family. When they shop through your link, your earn profit.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1745671050520"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1745671116392"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "680cd4099a9e3753074dae62"
+  },
+  "name": "Myntra",
+  "link": "https://myntr.it/shmBNyk",
+  "image": "uploads/affiliate/1745671177330-myntra.jpg",
+  "status": true,
+  "description": "Share this deal with your friends & family. When they shop through your link, your earn profit.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1745671177332"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1745671177332"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6835d7f860165cbd900c2bda"
+  },
+  "name": "Croma",
+  "link": "https://bitli.in/gJNR58u",
+  "image": "uploads/affiliate/1748359160010-Z9t6mU3xEA4P9ZbluQhmZokgM5YKJYkPumnaUPGK.jpg",
+  "status": true,
+  "description": "Buy multi-brand digital gadgets and home electronic products",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1748359160021"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748359160021"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6835d82560165cbd900c2be4"
+  },
+  "name": "Mamaearth",
+  "link": "https://bitli.in/K53zFMa",
+  "image": "uploads/affiliate/1748359205753-mamaearth.jpg",
+  "status": true,
+  "description": "Certified Toxin Free Beauty & Baby Care Products",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1748359205756"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748359205756"
+    }
+  },
+  "__v": 0
+}]

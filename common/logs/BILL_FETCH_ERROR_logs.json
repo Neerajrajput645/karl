@@ -1,0 +1,1719 @@
+[
+  {
+    "LogTime": "2025-11-04T18:15:09.894Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "PD03GWB4548",
+      "operator": "65"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Please enter numeric BP Number"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-04T18:15:57.769Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "PD03GWB4548",
+      "operator": "65"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Please enter numeric BP Number"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:19:29.387Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 55
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:27:10.709Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 55
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:28:15.667Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 55
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:28:30.079Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 55
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:29:59.034Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 55
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:30:20.402Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 55
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:40:56.642Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9039308051",
+      "operator": 65
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Incorrect / invalid Customer account"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:42:17.743Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "PD03GWE0917",
+      "operator": 65
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Please enter numeric BP Number"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:42:59.118Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "PD03GWE0917",
+      "operator": 221
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment Received for bill, no bills due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-08T18:46:37.433Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "PD03GWE0917",
+      "operator": 221
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment Received for bill, no bills due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T02:48:23.126Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "8770475416",
+      "operator": 324
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T04:13:32.040Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2210010910",
+      "operator": 55
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T04:13:38.200Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2210010910",
+      "operator": 134
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "DOB(YYYY/MM/DD) : Length should be in the range:10-10"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:18:49.553Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "6521506022062",
+      "operator": 152
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:24:31.305Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "6521506022062",
+      "operator": 643
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:29:15.882Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9753630483",
+      "operator": 643
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "This service is temporarily unavailable. We'll let you know when we resume it again."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:34:38.280Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "8040556000",
+      "operator": 1743
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "District-Discom : Length should be in the range:5-250"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:36:18.857Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "0831946000",
+      "operator": 1743
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "District-Discom : Length should be in the range:5-250"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:43:56.177Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "0831946000",
+      "operator": 1743,
+      "DistrictDiscom": "MVVNL"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "District-Discom : Length should be in the range:5-250"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:45:30.945Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "0831946000",
+      "operator": 1743,
+      "DistrictDiscom": 120
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "District-Discom : Length should be in the range:5-250"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:46:15.188Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "0831946000",
+      "operator": 1743,
+      "ad1": 120
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Please enter 5-250 character long District-Discom"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:46:37.642Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "0831946000",
+      "operator": 1743,
+      "ad1": "MVVNL"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "District-Discom : Tag value doesn't match any of the default values Agra-DVVNL,Aligarh-DVVNL,Ambedkar Nagar-MVVNL,Amethi-MVVNL,Amroha-PVVNL,Auraiya-DVVNL,Ayodhya-MVVNL,Azamgarh-PUVNL,Bagpat-PVVNL,Bahraich-MVVNL,Ballia-PUVNL,Balrampur-MVVNL,Banda-DVVNL,Barabanki-MVVNL,Bareilly-MVVNL,Basti-PUVNL,Bijnor-PVVNL,Budaun-MVVNL,Bulandshahr-PVVNL,Chandauli-PUVNL,Chitrakoot-DVVNL,Deoria-PUVNL,Etah-DVVNL,Etawah-DVVNL,Farrukhabad-DVVNL,Fatehpur-PUVNL,Firozabad-DVVNL,Gautam Buddha Nagar-PVVNL,Ghaziabad-PVVNL,Ghazipur-PUVNL,Gonda-MVVNL,Gorakhpur-PUVNL,Hamirpur-DVVNL,Hapur District-PVVNL,Hardoi-MVVNL,Hathras-DVVNL,Jalaun-DVVNL,Jaunpur-PUVNL,Jhansi-DVVNL,Kannauj-DVVNL,Kanpur Dehat-DVVNL,Kanpur Nagar-DVVNL,Kanpur Nagar-KESCO,Kasganj-DVVNL,Kaushambi-PUVNL,Kushinagar-PUVNL,Lakhimpur Kheri-MVVNL,Lalitpur-DVVNL,Lucknow-MVVNL,Maharajganj-PUVNL,Mahoba-DVVNL,Mainpuri-DVVNL,Mathura-DVVNL,Mau-PUVNL,Meerut-PVVNL,Mirzapur-PUVNL,Moradabad-PVVNL,Muzaffarnagar-PVVNL,Pilibhit-MVVNL,Pratapgarh-PUVNL,PrayagRaj-PUVNL,Raebareli-MVVNL,Rampur-PVVNL,Saharanpur-PVVNL,Sambhal-PVVNL,Sant Kabir Nagar-PUVNL,Sant Ravidas Nagar-Bhadohi-PUVNL,Shahjahanpur-MVVNL,Shamli-PVVNL,Shravasti-MVVNL,Siddharthnagar-PUVNL,Sitapur-MVVNL,Sonbhadra-PUVNL,Sultanpur-MVVNL,Unnao-MVVNL,Varanasi-PUVNL"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:46:55.367Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "0831946000",
+      "operator": 1743,
+      "ad1": "DVVNL"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "District-Discom : Tag value doesn't match any of the default values Agra-DVVNL,Aligarh-DVVNL,Ambedkar Nagar-MVVNL,Amethi-MVVNL,Amroha-PVVNL,Auraiya-DVVNL,Ayodhya-MVVNL,Azamgarh-PUVNL,Bagpat-PVVNL,Bahraich-MVVNL,Ballia-PUVNL,Balrampur-MVVNL,Banda-DVVNL,Barabanki-MVVNL,Bareilly-MVVNL,Basti-PUVNL,Bijnor-PVVNL,Budaun-MVVNL,Bulandshahr-PVVNL,Chandauli-PUVNL,Chitrakoot-DVVNL,Deoria-PUVNL,Etah-DVVNL,Etawah-DVVNL,Farrukhabad-DVVNL,Fatehpur-PUVNL,Firozabad-DVVNL,Gautam Buddha Nagar-PVVNL,Ghaziabad-PVVNL,Ghazipur-PUVNL,Gonda-MVVNL,Gorakhpur-PUVNL,Hamirpur-DVVNL,Hapur District-PVVNL,Hardoi-MVVNL,Hathras-DVVNL,Jalaun-DVVNL,Jaunpur-PUVNL,Jhansi-DVVNL,Kannauj-DVVNL,Kanpur Dehat-DVVNL,Kanpur Nagar-DVVNL,Kanpur Nagar-KESCO,Kasganj-DVVNL,Kaushambi-PUVNL,Kushinagar-PUVNL,Lakhimpur Kheri-MVVNL,Lalitpur-DVVNL,Lucknow-MVVNL,Maharajganj-PUVNL,Mahoba-DVVNL,Mainpuri-DVVNL,Mathura-DVVNL,Mau-PUVNL,Meerut-PVVNL,Mirzapur-PUVNL,Moradabad-PVVNL,Muzaffarnagar-PVVNL,Pilibhit-MVVNL,Pratapgarh-PUVNL,PrayagRaj-PUVNL,Raebareli-MVVNL,Rampur-PVVNL,Saharanpur-PVVNL,Sambhal-PVVNL,Sant Kabir Nagar-PUVNL,Sant Ravidas Nagar-Bhadohi-PUVNL,Shahjahanpur-MVVNL,Shamli-PVVNL,Shravasti-MVVNL,Siddharthnagar-PUVNL,Sitapur-MVVNL,Sonbhadra-PUVNL,Sultanpur-MVVNL,Unnao-MVVNL,Varanasi-PUVNL"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:47:05.272Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "0831946000",
+      "operator": 1743,
+      "ad1": "PUVNL"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "District-Discom : Tag value doesn't match any of the default values Agra-DVVNL,Aligarh-DVVNL,Ambedkar Nagar-MVVNL,Amethi-MVVNL,Amroha-PVVNL,Auraiya-DVVNL,Ayodhya-MVVNL,Azamgarh-PUVNL,Bagpat-PVVNL,Bahraich-MVVNL,Ballia-PUVNL,Balrampur-MVVNL,Banda-DVVNL,Barabanki-MVVNL,Bareilly-MVVNL,Basti-PUVNL,Bijnor-PVVNL,Budaun-MVVNL,Bulandshahr-PVVNL,Chandauli-PUVNL,Chitrakoot-DVVNL,Deoria-PUVNL,Etah-DVVNL,Etawah-DVVNL,Farrukhabad-DVVNL,Fatehpur-PUVNL,Firozabad-DVVNL,Gautam Buddha Nagar-PVVNL,Ghaziabad-PVVNL,Ghazipur-PUVNL,Gonda-MVVNL,Gorakhpur-PUVNL,Hamirpur-DVVNL,Hapur District-PVVNL,Hardoi-MVVNL,Hathras-DVVNL,Jalaun-DVVNL,Jaunpur-PUVNL,Jhansi-DVVNL,Kannauj-DVVNL,Kanpur Dehat-DVVNL,Kanpur Nagar-DVVNL,Kanpur Nagar-KESCO,Kasganj-DVVNL,Kaushambi-PUVNL,Kushinagar-PUVNL,Lakhimpur Kheri-MVVNL,Lalitpur-DVVNL,Lucknow-MVVNL,Maharajganj-PUVNL,Mahoba-DVVNL,Mainpuri-DVVNL,Mathura-DVVNL,Mau-PUVNL,Meerut-PVVNL,Mirzapur-PUVNL,Moradabad-PVVNL,Muzaffarnagar-PVVNL,Pilibhit-MVVNL,Pratapgarh-PUVNL,PrayagRaj-PUVNL,Raebareli-MVVNL,Rampur-PVVNL,Saharanpur-PVVNL,Sambhal-PVVNL,Sant Kabir Nagar-PUVNL,Sant Ravidas Nagar-Bhadohi-PUVNL,Shahjahanpur-MVVNL,Shamli-PVVNL,Shravasti-MVVNL,Siddharthnagar-PUVNL,Sitapur-MVVNL,Sonbhadra-PUVNL,Sultanpur-MVVNL,Unnao-MVVNL,Varanasi-PUVNL"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T05:47:17.670Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "0831946000",
+      "operator": 1743,
+      "ad1": "MVVNL"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "District-Discom : Tag value doesn't match any of the default values Agra-DVVNL,Aligarh-DVVNL,Ambedkar Nagar-MVVNL,Amethi-MVVNL,Amroha-PVVNL,Auraiya-DVVNL,Ayodhya-MVVNL,Azamgarh-PUVNL,Bagpat-PVVNL,Bahraich-MVVNL,Ballia-PUVNL,Balrampur-MVVNL,Banda-DVVNL,Barabanki-MVVNL,Bareilly-MVVNL,Basti-PUVNL,Bijnor-PVVNL,Budaun-MVVNL,Bulandshahr-PVVNL,Chandauli-PUVNL,Chitrakoot-DVVNL,Deoria-PUVNL,Etah-DVVNL,Etawah-DVVNL,Farrukhabad-DVVNL,Fatehpur-PUVNL,Firozabad-DVVNL,Gautam Buddha Nagar-PVVNL,Ghaziabad-PVVNL,Ghazipur-PUVNL,Gonda-MVVNL,Gorakhpur-PUVNL,Hamirpur-DVVNL,Hapur District-PVVNL,Hardoi-MVVNL,Hathras-DVVNL,Jalaun-DVVNL,Jaunpur-PUVNL,Jhansi-DVVNL,Kannauj-DVVNL,Kanpur Dehat-DVVNL,Kanpur Nagar-DVVNL,Kanpur Nagar-KESCO,Kasganj-DVVNL,Kaushambi-PUVNL,Kushinagar-PUVNL,Lakhimpur Kheri-MVVNL,Lalitpur-DVVNL,Lucknow-MVVNL,Maharajganj-PUVNL,Mahoba-DVVNL,Mainpuri-DVVNL,Mathura-DVVNL,Mau-PUVNL,Meerut-PVVNL,Mirzapur-PUVNL,Moradabad-PVVNL,Muzaffarnagar-PVVNL,Pilibhit-MVVNL,Pratapgarh-PUVNL,PrayagRaj-PUVNL,Raebareli-MVVNL,Rampur-PVVNL,Saharanpur-PVVNL,Sambhal-PVVNL,Sant Kabir Nagar-PUVNL,Sant Ravidas Nagar-Bhadohi-PUVNL,Shahjahanpur-MVVNL,Shamli-PVVNL,Shravasti-MVVNL,Siddharthnagar-PUVNL,Sitapur-MVVNL,Sonbhadra-PUVNL,Sultanpur-MVVNL,Unnao-MVVNL,Varanasi-PUVNL"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T06:26:18.113Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2210010910",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Bill fetch timed out from seller end"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T06:26:27.283Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2210010910",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-09T06:27:09.219Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-10T09:43:26.994Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "20000456789",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-10T09:43:29.743Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N20000456789",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-12T06:07:06.298Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "6268800426",
+      "operator": 293
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-12T16:16:03.287Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-12T16:24:05.046Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-12T16:25:30.429Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-12T17:13:57.138Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "KRISHNAKANT SHARMA",
+      "operator": 1268
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Action not supported."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-12T17:49:44.885Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-12T17:57:42.251Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-13T08:38:32.259Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N20251001193",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-13T08:38:44.509Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N20251001193",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-13T08:38:55.728Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N20251001193",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T16:03:31.470Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2904007531",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Bill fetch timed out from seller end"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:05:54.537Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:06:58.242Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:07:20.458Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:07:21.932Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:07:23.961Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:07:30.521Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:07:40.964Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:07:48.070Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:07:53.530Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:08:40.662Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:08:43.526Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:08:48.982Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:08:57.617Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:09:00.878Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:09:02.393Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:09:04.332Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:09:05.972Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:09:18.013Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:09:23.566Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:16:30.430Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:19:13.099Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:19:51.456Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:01.523Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:10.414Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:18.148Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:19.350Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:21.301Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:22.328Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:26.532Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:29.422Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:20:42.624Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:22:34.732Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:23:00.095Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:23:28.231Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:24:12.211Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:24:12.357Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:24:19.012Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:25:34.293Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9149544821",
+      "operator": 142
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Action not supported."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:25:47.917Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9149544821",
+      "operator": 142
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Action not supported."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:26:23.620Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:27:21.957Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:27:58.538Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:28:55.470Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:53:32.112Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2904007531",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:54:35.869Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2901019888",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T19:55:37.796Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T20:03:09.764Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-14T20:19:16.899Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2901019888",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Unable to get bill details from Biller"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-17T15:13:07.600Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-18T11:19:11.231Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294,
+      "ad": "15"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-18T11:21:50.410Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 294,
+      "ad": "15"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T08:40:46.011Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "6521506022062",
+      "operator": 1562
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T08:53:46.886Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "294",
+      "ad": "30",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T08:55:18.492Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZC1955",
+      "ad": "30",
+      "operator": 294
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T08:55:49.294Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZC1955",
+      "operator": 294,
+      "ad": 30
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "No outstanding bills found"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T15:12:35.006Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "1008",
+      "operator": 20809
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T15:17:26.720Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T15:25:44.007Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP30MG2512",
+      "operator": 221,
+      "ad1": "15"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Invalid consumer code"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T17:14:55.331Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809,
+      "cn": "6528680955141008"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T17:20:45.792Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809,
+      "cn": "6528680955141008"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T17:21:28.286Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809,
+      "cn": "6528680955141008"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T17:22:34.780Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809,
+      "cn": "6528680955141008"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T17:23:59.267Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809,
+      "cn": "6528680995141008"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T17:30:36.810Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809,
+      "cn": "6528680995141008"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T17:32:23.148Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809,
+      "cn": "6528680995141008"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Required fields are empty"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-20T17:32:58.204Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9993510894",
+      "operator": 20809,
+      "cn": "6528680995141008"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Missing/Invalid operator Id"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-22T12:09:41.458Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9826284061",
+      "operator": 293,
+      "ad1": "15"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Bill fetch timed out from seller end"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-11-22T12:09:54.965Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "MP07ZM4019",
+      "operator": 293,
+      "ad1": "15"
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Please enter numeric Mobile Number"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-07T16:20:12.736Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "8109635835",
+      "operator": 29
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Time Out Or other undefined Exceptions"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-07T17:23:22.827Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "7000751791",
+      "operator": 142
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Action not supported."
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-08T08:35:20.464Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2905010110",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-08T10:17:38.503Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-08T10:38:11.917Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251001193",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-10T07:45:42.861Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251003214",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-10T17:31:20.553Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9179244579",
+      "operator": 29
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-14T15:51:18.101Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "N2251003214",
+      "operator": 215
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Payment received for the billing period - no bill due"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-14T16:11:25.660Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9100940939",
+      "operator": 288
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Refill booking allowed after 15 days of the last cylinder delivery"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2025-12-14T16:12:23.887Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "9100940939",
+      "operator": 288
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Refill booking allowed after 15 days of the last cylinder delivery"
+    },
+    "Additional_Info": "Bill fetch failed"
+  }
+]

@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "6821d8ca9faef8c93c34b312"
+  },
+  "link": "https://www.gamezop.com/en/game/ludo-with-friends/SkhljT2fdgb",
+  "image": "uploads/game/1747048650997-Ludo.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1747048651000"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1747049583577"
+    }
+  },
+  "__v": 0,
+  "name": "Ludo"
+},{
+  "_id": {
+    "$oid": "6821d8d89faef8c93c34b31a"
+  },
+  "link": "https://www.gamezop.com/en/game/bubble-shooter-classic/yVywAGBQ6",
+  "image": "uploads/game/1747048664743-BubbleShooter.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1747048664745"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1747049573505"
+    }
+  },
+  "__v": 0,
+  "name": "Bubble Shooter"
+},{
+  "_id": {
+    "$oid": "6821d8e79faef8c93c34b322"
+  },
+  "link": "https://www.gamezop.com/en/game/tic-tac-toe/H1WmafkP9JQ",
+  "image": "uploads/game/1747048679819-TicTacTow.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1747048679822"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1747049562236"
+    }
+  },
+  "__v": 0,
+  "name": "Tic Tac Toe"
+},{
+  "_id": {
+    "$oid": "6821d90e9faef8c93c34b32a"
+  },
+  "link": "https://www.gamezop.com/en/game/pool-master/hgempP8Sc",
+  "image": "uploads/game/1747048718657-8BallPool.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1747048718659"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1747049541196"
+    }
+  },
+  "__v": 0,
+  "name": "Pool Master"
+},{
+  "_id": {
+    "$oid": "6830c58dcbe9199f556521ba"
+  },
+  "link": "https://www.gamezop.com/en/game/blazing-blades/UYiznUAya",
+  "image": "uploads/game/1748026763209-knife.png",
+  "name": "Blazing Blades",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1748026766460"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1748026766460"
+    }
+  },
+  "__v": 0
+}]

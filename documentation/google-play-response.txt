@@ -1,0 +1,27 @@
+BILL_PAYMENT req body -> {
+  number: '8770475416',
+  operatorCode: 'google_play',
+  operatorName: 'Google Play',
+  operatorId: 'google_play',
+  amount: '20',
+  serviceId: '661061ecda6832bf278254e1',
+  mPin: '1234',
+  operatorCategory: 'redeem-code'       
+}
+payload -> {
+  token: 'OIKVa3GqDUrtoPefXBcjekd23',
+  order_id: '3903399703',
+  type: 'redeem-code',
+  amount: 20,
+  number: '8770475416',
+  op_uid: 'google_play',
+  circle: 'Google Play',
+  additional_params: {}
+}
+response -> {
+  status: 'success',
+  order_id: '3903399703',
+  margin: '0.4000',
+  margin_percentage: '2.0000',
+  operator_ref_id: '6FSVYD0T8Z4HRFLX'
+}

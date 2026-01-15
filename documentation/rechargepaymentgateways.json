@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "685fd1409698735844e0d6ac"
+  },
+  "paymentGatewayName": "CASHFREE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "6874bba589cd00775383e05e"
+  },
+  "paymentGatewayName": "PAYGIC",
+  "status": false
+}]

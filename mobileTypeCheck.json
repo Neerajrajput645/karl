@@ -1,0 +1,97 @@
+ [ {
+      "id": 2,
+      "name": "Airtel",
+      "opcode": 2,
+      "type": "PREPAID"
+    },
+    {
+      "id": 4,
+      "name": "BSNL TOPUP",
+      "opcode": 4,
+      "type": "PREPAID"
+    },
+    {
+      "id": 5,
+      "name": "BSNL SPECIAL",
+      "opcode": 5,
+      "type": "PREPAID"
+    },
+    {
+      "id": 6,
+      "name": "IDEA",
+      "opcode": 6,
+      "type": "PREPAID"
+    },
+    {
+      "id": 11,
+      "name": "RELIANCE JIO",
+      "opcode": 11,
+      "type": "PREPAID"
+    },
+    {
+      "id": 23,
+      "name": "VODAFONE",
+      "opcode": 23,
+      "type": "PREPAID"
+    },
+    {
+      "id": 93,
+      "name": "MATRIX PRECARD",
+      "opcode": 93,
+      "type": "PREPAIDD"
+    },
+    {
+      "id": 33,
+      "name": "BSNL Postpaid Mobile",
+      "opcode": 33,
+      "type": "POSTPAID"
+    },
+    {
+      "id": 34,
+      "name": "Airtel Postpaid Mobile",
+      "opcode": 34,
+      "type": "POSTPAID"
+    },
+    {
+      "id": 35,
+      "name": "Idea Postpaid Mobile",
+      "opcode": 35,
+      "type": "POSTPAID"
+    },
+    {
+      "id": 36,
+      "name": "Vodafone Postpaid Mobile",
+      "opcode": 36,
+      "type": "POSTPAID"
+    },
+    {
+      "id": 40,
+      "name": "Aircel Postpaid Mobile",
+      "opcode": 40,
+      "type": "POSTPAID"
+    },
+    {
+      "id": 81,
+      "name": "LOOP MOBILE POSTPAID",
+      "opcode": 81,
+      "type": "POSTPAID"
+    },
+    {
+      "id": 82,
+      "name": "TATA DOCOMO CDMA POSTPAID",
+      "opcode": 82,
+      "type": "POSTPAID"
+    },
+    {
+      "id": 94,
+      "name": "MATRIX POSTCARD",
+      "opcode": 94,
+      "type": "POSTPAIDD"
+    },
+    {
+      "id": 477,
+      "name": "Jio Postpaid",
+      "opcode": 491,
+      "type": "POSTPAID"
+    }
+]
