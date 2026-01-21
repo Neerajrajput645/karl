@@ -1715,5 +1715,47 @@
       "message": "Refill booking allowed after 15 days of the last cylinder delivery"
     },
     "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2026-01-19T05:26:57.274Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "150000002463",
+      "operator": 1173
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Incorrect / invalid Customer account"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2026-01-19T05:27:16.994Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "150000002463",
+      "operator": 1173
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Incorrect / invalid Customer account"
+    },
+    "Additional_Info": "Bill fetch failed"
+  },
+  {
+    "LogTime": "2026-01-19T05:27:47.119Z",
+    "API_Name": "BILL_FETCH_ERROR",
+    "API_Endpoint": "/api/cyrus/bbps/new-bill-fetch",
+    "Request_Data": {
+      "number": "150000002463",
+      "operator": 1173
+    },
+    "Response_Data": {
+      "status": "error",
+      "message": "Incorrect / invalid Customer account"
+    },
+    "Additional_Info": "Bill fetch failed"
   }
 ]

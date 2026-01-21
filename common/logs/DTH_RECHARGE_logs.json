@@ -2362,5 +2362,81 @@
       "message": "Insufficient wallet balance"
     },
     "Additional_Info": "Error during recharge for TxnID: TXNPP8F7E328D"
+  },
+  {
+    "LogTime": "2026-01-17T05:06:05.665Z",
+    "API_Name": "DTH_RECHARGE",
+    "API_Endpoint": "https://api.techember.in/app/recharges/main.php",
+    "Request_Data": {
+      "token": "099c047e337026f7b3567ccccbf5a0f3",
+      "number": "1387356551",
+      "op_uid": "tata_sky",
+      "amount": 200,
+      "order_id": "TXNPP27973ED2",
+      "type": "dth",
+      "circle": "N/A"
+    },
+    "Response_Data": null,
+    "Additional_Info": "Recharge initiated for TxnID: TXNPP27973ED2"
+  },
+  {
+    "LogTime": "2026-01-17T05:06:12.599Z",
+    "API_Name": "DTH_RECHARGE",
+    "API_Endpoint": "https://api.techember.in/app/recharges/main.php",
+    "Request_Data": {
+      "token": "099c047e337026f7b3567ccccbf5a0f3",
+      "number": "1387356551",
+      "op_uid": "tata_sky",
+      "amount": 200,
+      "order_id": "TXNPP27973ED2",
+      "type": "dth",
+      "circle": "N/A"
+    },
+    "Response_Data": {
+      "status": "success",
+      "order_id": "TXNPP27973ED2",
+      "margin": "10.0000",
+      "margin_percentage": "5.0000",
+      "operator_ref_id": "TV2601172677810307"
+    },
+    "Additional_Info": "Recharge response for TxnID: TXNPP27973ED2, Status: success"
+  },
+  {
+    "LogTime": "2026-01-18T13:15:12.462Z",
+    "API_Name": "DTH_RECHARGE",
+    "API_Endpoint": "https://api.techember.in/app/recharges/main.php",
+    "Request_Data": {
+      "token": "099c047e337026f7b3567ccccbf5a0f3",
+      "number": "3027963585",
+      "op_uid": "airtel_tv",
+      "amount": 350,
+      "order_id": "TXNPP3951695A",
+      "type": "dth",
+      "circle": "N/A"
+    },
+    "Response_Data": null,
+    "Additional_Info": "Recharge initiated for TxnID: TXNPP3951695A"
+  },
+  {
+    "LogTime": "2026-01-18T13:15:17.254Z",
+    "API_Name": "DTH_RECHARGE",
+    "API_Endpoint": "https://api.techember.in/app/recharges/main.php",
+    "Request_Data": {
+      "token": "099c047e337026f7b3567ccccbf5a0f3",
+      "number": "3027963585",
+      "op_uid": "airtel_tv",
+      "amount": 350,
+      "order_id": "TXNPP3951695A",
+      "type": "dth",
+      "circle": "N/A"
+    },
+    "Response_Data": {
+      "status": "success",
+      "order_id": "TXNPP3951695A",
+      "margin": "17.5000",
+      "margin_percentage": "5.0000",
+      "operator_ref_id": "1666584640_KripiyaBegam"
+    },
+    "Additional_Info": "Recharge response for TxnID: TXNPP3951695A, Status: success"
   }
 ]

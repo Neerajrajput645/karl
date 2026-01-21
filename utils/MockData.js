@@ -14,7 +14,7 @@ const All_Recharge_Operator_List = [
   {
     Ezytm_Operator_code: 5,
     Egpayment_Operator_code: 6,
-    Cyrus_Operator_code: "JIO",
+    Cyrus_Operator_code: "JL",
     A1_Operator_code: "RC",
     PlanApi_Operator_code: 11,
     Billhub_Operator_code: "jio",
@@ -26,7 +26,7 @@ const All_Recharge_Operator_List = [
   {
     Ezytm_Operator_code: 6,
     Egpayment_Operator_code: 5,
-    Cyrus_Operator_code: "VF",
+    Cyrus_Operator_code: "VI",
     A1_Operator_code: "V",
     PlanApi_Operator_code: 23,
     Billhub_Operator_code: "vi",
@@ -39,7 +39,7 @@ const All_Recharge_Operator_List = [
   {
     Ezytm_Operator_code: 3,
     Egpayment_Operator_code: 2,
-    Cyrus_Operator_code: "BSNL",
+    Cyrus_Operator_code: "BS",
     A1_Operator_code: "BT",
     PlanApi_Operator_code: 4,
     Billhub_Operator_code: "bsnl_topup",
@@ -53,7 +53,6 @@ const All_Recharge_Operator_List = [
     A1_Operator_code: "PAT",
     Billhub_Operator_code: "airtel_postpaid",
     Mobikwik_Operator_code: 29,
-
     Operator_name: "Airtel Postpaid",
     img: "uploads/operator/airtel.jpg",
   },
@@ -461,9 +460,10 @@ const All_Recharge_Circle_List = [
 const All_DTH_Recharge_Operator_List = [
   {
     A1_Operator_code: "ATV",
+    Cyrus_Operator_code : "AD",
     Billhub_Operator_code: "airtel_tv",
     Mobikwik_Operator_code: 24,
-     planApi_operator_code:24,
+    planApi_operator_code:24,
     Operator_name: "Airtel TV",
     img: "uploads/operator/airtel.jpg",
   },
@@ -471,6 +471,7 @@ const All_DTH_Recharge_Operator_List = [
     A1_Operator_code: "DTV",
     Billhub_Operator_code: "dish_tv",
     Mobikwik_Operator_code: 18,
+    Cyrus_Operator_code : "DT",
      planApi_operator_code:25,
     Operator_name: "Dish TV",
     img: "uploads/operator/dish_tv.jpg",
@@ -481,6 +482,7 @@ const All_DTH_Recharge_Operator_List = [
     Mobikwik_Operator_code: 19,
      planApi_operator_code:28,
     Operator_name: "Tata Sky",
+    Cyrus_Operator_code : "TS",
     img: "uploads/operator/tata_sky.jpg",
   },
 
@@ -489,6 +491,7 @@ const All_DTH_Recharge_Operator_List = [
     Billhub_Operator_code: "sun_tv",
     Mobikwik_Operator_code: 22,
     planApi_operator_code:27,
+    Cyrus_Operator_code : "SD",
     Operator_name: "Sun Direct",
     img: "uploads/operator/sun_tv.jpg",
   },
@@ -496,6 +499,7 @@ const All_DTH_Recharge_Operator_List = [
     A1_Operator_code: "VTV",
     Billhub_Operator_code: "videocon",
     Mobikwik_Operator_code: 21,
+    Cyrus_Operator_code : "VD",
      planApi_operator_code:29,
     Operator_name: "Videocon DTH",
     img: "uploads/operator/videocon.jpg",

@@ -2549,13 +2549,36 @@ const lastRecharge = asyncHandler(async (req, res) => {
   });
 });
 
+const dthOperatorList = asyncHandler(async(req, res)=>{
+  console.log("start")
+  try {
+    const operators = All_DTH_Recharge_Operator_List.map((item) => ({
+      OperatorName: item.Operator_name,
+      OperatorCode: item.planApi_operator_code,
+      operatorImage: "https://static.mobikwik.com/appdata/operator_icons/op23.png"
+    }));
 
+    console.log("end")
+    return res.status(200).json({
+      success: true,
+      message: "DTH operators fetched successfully",
+      Data: operators,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "Failed to fetch DTH operators",
+      error: error.message,
+    });
+  }
+});
 
 
 module.exports = {
   planFetch, //-----------------------------
   userReferralList,
   lastRecharge,
+  dthOperatorList,
   //   getOperator, //-----------------------------
   //   getCircle, //-----------------------------
   //   getBalance, //-----------------------------
@@ -2584,5 +2607,7 @@ module.exports = {
   fetchDthOpDetails,
   getCircleAndOperators,
 };
+
+
 
 // 

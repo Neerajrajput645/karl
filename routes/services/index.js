@@ -9,6 +9,7 @@ const {
   dthHistory,
   handleFailedRecharge,
   commission,
+  dthOperatorList,
   rechargeHistoryByAdmin,
   dthHistoryByAdmin,
   Get_Operator_Circle_By_Phone,
@@ -42,6 +43,7 @@ router.get("/plan_fetch", tokenVerify, planFetch);
 router.get("/last-recharge", tokenVerify, lastRecharge);
 router.get("/dth_request", tokenVerify, dthRequest);
 router.get("/dth_history", tokenVerify, dthHistory);
+router.get("/dth_operator_list", dthOperatorList);
 router.get("/fetch_dth_plans", tokenVerify, fetchDthPlans);
 router.get("/fetch_dth_operator", tokenVerify, fetchDthOperator);
 router.get("/fetch_dth_operators", fetchDthOperators);

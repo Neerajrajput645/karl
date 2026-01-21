@@ -31,7 +31,10 @@ app.use(
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
+app.use((req, res, next) => {
+  console.log("API HIT:", req.method, req.originalUrl);
+  next();
+});
 // =========================  API Routes ==========================
 app.use("/api/txn", require("./routes/txnRoute"));
 app.use("/api/auth", require("./routes/authRoute"));

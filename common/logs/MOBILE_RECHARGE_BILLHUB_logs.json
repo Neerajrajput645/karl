@@ -1,0 +1,16 @@
+[
+  {
+    "LogTime": "2026-01-16T04:46:47.430Z",
+    "API_Name": "MOBILE_RECHARGE_BILLHUB",
+    "API_Endpoint": "https://api.techember.in/app/recharges/main.php",
+    "Request_Data": "https://production-api.google.info/api/wallet/callback",
+    "Response_Data": {
+      "status": "failed",
+      "order_id": "TXNPP3BE6DEC1",
+      "margin": null,
+      "margin_percentage": null,
+      "operator_ref_id": null
+    },
+    "Additional_Info": "Recharge Callback Status Update from BILLHUB: failed for TxnID: TXNPP3BE6DEC1"
+  }
+]
