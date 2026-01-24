@@ -1,4 +1,5 @@
 const asyncHandler = require("express-async-handler");
+const mongoose = require("mongoose");
 const User = require("../models/userSchema");
 const Wallet = require("../models/walletSchema");
 const DistributorEarnings = require("../models/distributorEarningsSchema");
@@ -132,6 +133,9 @@ const getMyEarnings = asyncHandler(async (req, res) => {
 // ======================= GET EARNINGS SUMMARY =======================
 const getEarningsSummary = asyncHandler(async (req, res) => {
   const { _id } = req.data;
+  
+  // Convert _id to ObjectId for aggregate queries
+  const distributorObjectId = new mongoose.Types.ObjectId(_id);
 
   // Get today's start and end
   const today = new Date();
@@ -143,15 +147,15 @@ const getEarningsSummary = asyncHandler(async (req, res) => {
 
   const [totalEarnings, todayEarnings, monthEarnings, totalRetailers] = await Promise.all([
     DistributorEarnings.aggregate([
-      { $match: { distributorId: _id, status: "credited" } },
+      { $match: { distributorId: distributorObjectId, status: "credited" } },
       { $group: { _id: null, total: { $sum: "$commissionAmount" }, count: { $sum: 1 } } },
     ]),
     DistributorEarnings.aggregate([
-      { $match: { distributorId: _id, status: "credited", createdAt: { $gte: startOfDay, $lte: endOfDay } } },
+      { $match: { distributorId: distributorObjectId, status: "credited", createdAt: { $gte: startOfDay, $lte: endOfDay } } },
       { $group: { _id: null, total: { $sum: "$commissionAmount" }, count: { $sum: 1 } } },
     ]),
     DistributorEarnings.aggregate([
-      { $match: { distributorId: _id, status: "credited", createdAt: { $gte: startOfMonth } } },
+      { $match: { distributorId: distributorObjectId, status: "credited", createdAt: { $gte: startOfMonth } } },
       { $group: { _id: null, total: { $sum: "$commissionAmount" }, count: { $sum: 1 } } },
     ]),
     User.countDocuments({ createdBy: _id, userType: "Retailer" }),
