@@ -1,4 +1,5 @@
 const asyncHandler = require("express-async-handler");
+const mongoose = require("mongoose");
 const User = require("../models/userSchema");
 const Wallet = require("../models/walletSchema");
 const DistributorCommission = require("../models/distributorCommissionSchema");
@@ -214,18 +215,20 @@ const getDistributorEarnings = asyncHandler(async (req, res) => {
   const { distributorId } = req.params;
   const page = parseInt(req.query.page) || 1;
   const limit = parseInt(req.query.limit) || 20;
+  
+  const distributorObjectId = new mongoose.Types.ObjectId(distributorId);
 
-  const earnings = await DistributorEarnings.find({ distributorId })
+  const earnings = await DistributorEarnings.find({ distributorId: distributorObjectId })
     .populate("retailerId", "firstName lastName phone")
     .sort({ createdAt: -1 })
     .skip((page - 1) * limit)
     .limit(limit);
 
-  const total = await DistributorEarnings.countDocuments({ distributorId });
+  const total = await DistributorEarnings.countDocuments({ distributorId: distributorObjectId });
 
   // Calculate totals
   const totals = await DistributorEarnings.aggregate([
-    { $match: { distributorId: require("mongoose").Types.ObjectId(distributorId), status: "credited" } },
+    { $match: { distributorId: distributorObjectId, status: "credited" } },
     { $group: { _id: null, total: { $sum: "$commissionAmount" }, count: { $sum: 1 } } },
   ]);
 
