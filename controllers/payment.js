@@ -13,6 +13,7 @@ const successHandler = require("../common/successHandler");
 const Notification = require("../models/notificationSchema");
 const sendNotification = require("../common/sendNotification");
 const getIpAddress = require("../common/getIpAddress");
+const DistributorEarnings = require("../models/distributorEarningsSchema");
 const CRYPTO_SECRET = process.env.CRYPTO_SECRET;
 
 // ======================= UPI TENZACT INIT =======================
@@ -115,6 +116,87 @@ const handleCashback = async (
   } catch (error) {
     console.error("Cashback handling error:", error);
     throw new Error("Failed to handle cashback.");
+  }
+};
+
+// ======================= HANDLE DISTRIBUTOR COMMISSION =======================
+const handleDistributorCommission = async (
+  distributor,
+  retailer,
+  commissionAmount,
+  txnId,
+  serviceType,
+  serviceName,
+  transactionAmount,
+  ipAddress
+) => {
+  try {
+    if (commissionAmount <= 0) {
+      console.log("Commission amount is 0 or negative. Skipping.");
+      return;
+    }
+
+    // Find distributor's wallet
+    const distributorWallet = await Wallet.findOne({ userId: distributor._id });
+    if (!distributorWallet) {
+      console.error("Distributor wallet not found:", distributor._id);
+      return;
+    }
+
+    // 1. Credit to distributor wallet
+    await Wallet.findByIdAndUpdate(distributorWallet._id, {
+      $inc: { balance: commissionAmount },
+    });
+
+    // 2. Create transaction record
+    const commissionTxn = new Transaction({
+      userId: distributor._id,
+      recipientId: distributor._id,
+      txnName: "Distributor Commission",
+      txnDesc: `Commission ₹${commissionAmount.toFixed(2)} from ${retailer.firstName || "Retailer"}'s ${serviceName} transaction`,
+      txnType: "credit",
+      txnStatus: "TXN_SUCCESS",
+      txnResource: "Wallet",
+      txnId: txnId + "_dist_comm",
+      orderId: txnId + "_dist_comm",
+      txnAmount: commissionAmount.toFixed(2),
+      ipAddress,
+    });
+    await commissionTxn.save();
+
+    // 3. Save to DistributorEarnings for dashboard
+    const earning = new DistributorEarnings({
+      distributorId: distributor._id,
+      retailerId: retailer._id,
+      transactionId: txnId,
+      serviceType,
+      serviceName,
+      transactionAmount,
+      commissionAmount,
+      status: "credited",
+    });
+    await earning.save();
+
+    // 4. Send notification to distributor
+    const notification = {
+      title: "Commission Earned! 💰",
+      body: `You earned ₹${commissionAmount.toFixed(2)} from ${retailer.firstName || "a retailer"}'s ${serviceName} transaction.`,
+    };
+
+    const newNotification = new Notification({
+      ...notification,
+      recipient: distributor._id,
+    });
+    await newNotification.save();
+
+    if (distributor?.deviceToken) {
+      sendNotification(notification, distributor.deviceToken);
+    }
+
+    console.log(`Distributor commission credited: ₹${commissionAmount.toFixed(2)} to ${distributor.firstName}`);
+  } catch (error) {
+    console.error("Distributor commission handling error:", error);
+    // Don't throw - we don't want to fail the main transaction
   }
 };
 
@@ -591,5 +673,6 @@ module.exports = {
   handleCashback,
   handleRefund,
   handleDisputeRefund,
+  handleDistributorCommission,
   paywithWallet
 };

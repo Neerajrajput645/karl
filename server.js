@@ -41,6 +41,8 @@ app.use("/api/auth", require("./routes/authRoute"));
 app.use("/api/admin", require("./routes/adminRoute"));
 app.use("/api/user", require("./routes/userRoute"));
 app.use("/api/wallet", require("./routes/walletRoute"));
+app.use("/api/distributor", require("./routes/distributorRoute"));
+app.use("/api/admin/distributor", require("./routes/adminDistributorRoute"));
 app.use("/api/commission", require("./routes/newRoutes/commission.js"));
 app.all("/api/webhook/callback", Recharge_CallBack_Handler);
 // app.use("/api/setting", require("./routes/appSetting"));
