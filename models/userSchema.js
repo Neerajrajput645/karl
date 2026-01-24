@@ -50,6 +50,19 @@ const userSchema = new Schema(
     isVerified: { type: Boolean, enum: [false, true], default: false },
     isMerchant: { type: Boolean, enum: [false, true], default: false },
     isFingerPrint: { type: Boolean, enum: [false, true], default: false },
+    
+    // User Type for Distributor/Retailer hierarchy
+    userType: {
+      type: String,
+      enum: ["Distributor", "Retailer", null],
+      default: null,
+    },
+    // For Retailers: points to the Distributor who created them
+    createdBy: {
+      type: Schema.Types.ObjectId,
+      ref: "User",
+      default: null,
+    },
   },
   { timestamps: true }
 );

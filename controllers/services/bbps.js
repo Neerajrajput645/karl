@@ -22,7 +22,8 @@ const Transaction = require("../../models/txnSchema");
 const CryptoJS = require("crypto-js");
 const operatorList = require("../../common/operators");
 const { encryptFunc } = require("../../common/encryptDecrypt");
-const { paywithWallet, handleRefund, handleCashback } = require("../payment");
+const { paywithWallet, handleRefund, handleCashback, handleDistributorCommission } = require("../payment");
+const DistributorCommission = require("../../models/distributorCommissionSchema");
 const { generateOrderId } = require("../../common/generateOrderId");
 const { userSignUp } = require("../auth");
 const Users = require("../../models/userSchema");
@@ -490,6 +491,47 @@ const BILL_PAYMENT = asyncHandler(async (req, res) => {
             }
           }
         }
+
+        // ========== Distributor Commission for BBPS ==========
+        if (status === "success" && FindUser.userType === "Retailer" && FindUser.createdBy) {
+          console.log("Processing Distributor Commission for BBPS Retailer:", FindUser._id);
+          try {
+            const distributor = await Users.findById(FindUser.createdBy);
+            if (distributor && distributor.userType === "Distributor") {
+              const distCommission = await DistributorCommission.findOne({
+                distributorId: distributor._id,
+                serviceType: "bbps",
+                serviceName: operatorCategory,
+                status: true,
+              });
+              
+              if (distCommission) {
+                let commissionAmount = distCommission.commission;
+                if (distCommission.symbol === "%") {
+                  commissionAmount = (TxnAmount / 100) * distCommission.commission;
+                }
+                commissionAmount = parseFloat(commissionAmount.toFixed(2));
+                
+                console.log("BBPS Distributor Commission Amount:", commissionAmount);
+                await handleDistributorCommission(
+                  distributor,
+                  FindUser,
+                  commissionAmount,
+                  transactionId,
+                  "bbps",
+                  operatorCategory,
+                  TxnAmount,
+                  ipAddress
+                );
+              } else {
+                console.log("No distributor commission configured for BBPS:", operatorCategory);
+              }
+            }
+          } catch (distError) {
+            console.error("Error processing BBPS distributor commission:", distError);
+          }
+        }
+        // ========== End BBPS Distributor Commission ==========
 
         const notification = {
           title: `${findService.name} Payment is ${status}`,

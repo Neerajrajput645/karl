@@ -31,7 +31,9 @@ const {
   handleRefund,
   handleCashback,
   handleDisputeRefund,
+  handleDistributorCommission,
 } = require("../payment");
+const DistributorCommission = require("../../models/distributorCommissionSchema");
 const { generateOrderId } = require("../../common/generateOrderId");
 const CRYPTO_SECRET = process.env.CRYPTO_SECRET;
 // const nodemailer = require("nodemailer");
@@ -546,6 +548,48 @@ const rechargeRequest = asyncHandler(async (req, res) => {
           );
         }
         // End Cashback ---------------------------
+
+        // ========== Distributor Commission ==========
+        if (status == "success" && FindUser.userType === "Retailer" && FindUser.createdBy) {
+          console.log("Processing Distributor Commission for Retailer:", FindUser._id);
+          try {
+            const distributor = await Users.findById(FindUser.createdBy);
+            if (distributor && distributor.userType === "Distributor") {
+              const distCommission = await DistributorCommission.findOne({
+                distributorId: distributor._id,
+                serviceType: "mobile",
+                serviceName: findOperator.com_name,
+                status: true,
+              });
+              
+              if (distCommission) {
+                let commissionAmount = distCommission.commission;
+                if (distCommission.symbol === "%") {
+                  commissionAmount = (TxnAmount / 100) * distCommission.commission;
+                }
+                commissionAmount = parseFloat(commissionAmount.toFixed(2));
+                
+                console.log("Distributor Commission Amount:", commissionAmount);
+                await handleDistributorCommission(
+                  distributor,
+                  FindUser,
+                  commissionAmount,
+                  transactionId,
+                  "mobile",
+                  findOperator.com_name,
+                  TxnAmount,
+                  ipAddress
+                );
+              } else {
+                console.log("No distributor commission configured for:", findOperator.com_name);
+              }
+            }
+          } catch (distError) {
+            console.error("Error processing distributor commission:", distError);
+            // Don't fail the main transaction
+          }
+        }
+        // ========== End Distributor Commission ==========
 
         const notification = {
           title: `Recharge ${status}`,
@@ -1127,6 +1171,47 @@ const dthRequest = asyncHandler(async (req, res) => {
           console.log("Cashback amount is 0. Nothing credited.");
         }
       }
+
+      // ========== Distributor Commission for DTH ==========
+      if (FindUser.userType === "Retailer" && FindUser.createdBy) {
+        console.log("Processing Distributor Commission for DTH Retailer:", FindUser._id);
+        try {
+          const distributor = await Users.findById(FindUser.createdBy);
+          if (distributor && distributor.userType === "Distributor") {
+            const distCommission = await DistributorCommission.findOne({
+              distributorId: distributor._id,
+              serviceType: "dth",
+              serviceName: findOperator.Operator_name,
+              status: true,
+            });
+            
+            if (distCommission) {
+              let commissionAmount = distCommission.commission;
+              if (distCommission.symbol === "%") {
+                commissionAmount = (txnAmount / 100) * distCommission.commission;
+              }
+              commissionAmount = parseFloat(commissionAmount.toFixed(2));
+              
+              console.log("DTH Distributor Commission Amount:", commissionAmount);
+              await handleDistributorCommission(
+                distributor,
+                FindUser,
+                commissionAmount,
+                transactionId,
+                "dth",
+                findOperator.Operator_name,
+                txnAmount,
+                ipAddress
+              );
+            } else {
+              console.log("No distributor commission configured for DTH:", findOperator.Operator_name);
+            }
+          }
+        } catch (distError) {
+          console.error("Error processing DTH distributor commission:", distError);
+        }
+      }
+      // ========== End DTH Distributor Commission ==========
     }
 
 
