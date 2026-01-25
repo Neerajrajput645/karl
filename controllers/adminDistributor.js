@@ -266,6 +266,26 @@ const deleteDistributorCommission = asyncHandler(async (req, res) => {
   });
 });
 
+// ======================= TOGGLE COMMISSION STATUS =======================
+const toggleCommissionStatus = asyncHandler(async (req, res) => {
+  const { commissionId } = req.params;
+
+  const commission = await DistributorCommission.findById(commissionId);
+  if (!commission) {
+    res.status(404);
+    throw new Error("Commission not found");
+  }
+
+  // Toggle status
+  commission.status = !commission.status;
+  await commission.save();
+
+  successHandler(req, res, {
+    Remarks: `Commission ${commission.status ? 'activated' : 'deactivated'} successfully`,
+    Data: { status: commission.status },
+  });
+});
+
 module.exports = {
   createDistributor,
   getAllDistributors,
@@ -273,4 +293,5 @@ module.exports = {
   getDistributorCommissions,
   getDistributorEarnings,
   deleteDistributorCommission,
+  toggleCommissionStatus,
 };

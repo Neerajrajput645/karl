@@ -11,6 +11,7 @@ const {
   updateMpin,
   userList,
   statusUpdate,
+  userTypeUpdate,
 } = require("../controllers/user");
 
 //  ============= user management routes =================
@@ -18,6 +19,7 @@ router.post("/list", adminTokenVerify, userList);
 router.get("/profile", tokenVerify, userProfile);
 router.get("/refer-list", tokenVerify, referList);
 router.patch("/status-update", adminTokenVerify, statusUpdate);
+router.patch("/usertype-update", adminTokenVerify, userTypeUpdate);
 
 // ================= mpin routes =================
 router.post("/mpin-verify", tokenVerify, verifyMpin);
