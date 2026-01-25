@@ -7,6 +7,7 @@ const {
   getDistributorCommissions,
   getDistributorEarnings,
   deleteDistributorCommission,
+  toggleCommissionStatus,
 } = require("../controllers/adminDistributor");
 
 // ========================= Admin Distributor Routes =========================
@@ -16,5 +17,6 @@ router.post("/set-commission", adminTokenVerify, setDistributorCommission);
 router.get("/commissions/:distributorId", adminTokenVerify, getDistributorCommissions);
 router.get("/earnings/:distributorId", adminTokenVerify, getDistributorEarnings);
 router.delete("/commission/:commissionId", adminTokenVerify, deleteDistributorCommission);
+router.patch("/commission/:commissionId/toggle-status", adminTokenVerify, toggleCommissionStatus);
 
 module.exports = router;

@@ -166,6 +166,33 @@ const statusUpdate = asyncHandler(async (req, res) => {
   successHandler(req, res, { Remarks: "status update success" });
 });
 
+// ============================ USER TYPE UPDATE BY ADMIN ============================ //
+const userTypeUpdate = asyncHandler(async (req, res) => {
+  const { userId, userType } = req.body;
+
+  // Validate userType
+  if (!["Retailer", "Distributor"].includes(userType)) {
+    res.status(400);
+    throw new Error("Invalid userType. Must be 'Retailer' or 'Distributor'");
+  }
+
+  // Get the user first
+  const user = await User.findById(userId);
+  if (!user) {
+    res.status(404);
+    throw new Error("User not found");
+  }
+
+  // Update user type
+  await User.updateOne({ _id: userId }, { $set: { userType } });
+
+  // success respond
+  successHandler(req, res, { 
+    Remarks: `User type updated to ${userType}`,
+    Data: { userType }
+  });
+});
+
 
 // -----------------------------------------------------------------------------------------------
 
@@ -307,6 +334,7 @@ module.exports = {
   referList,
   userList,
   statusUpdate,
+  userTypeUpdate,
   createMpin,
   verifyMpin,
   forgotMpin,
