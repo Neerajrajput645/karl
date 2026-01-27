@@ -143,6 +143,35 @@ const getAllDistributors = asyncHandler(async (req, res) => {
   });
 });
 
+// ======================= GET DISTRIBUTOR RETAILERS =======================
+const getDistributorRetailers = asyncHandler(async (req, res) => {
+  const { distributorId } = req.params;
+  const page = parseInt(req.query.page) || 1;
+  const limit = parseInt(req.query.limit) || 20;
+
+  const retailers = await User.find({ createdBy: distributorId, userType: "Retailer" })
+    .select("firstName lastName phone email status createdAt")
+    .populate("wallet", "balance")
+    .sort({ createdAt: -1 })
+    .skip((page - 1) * limit)
+    .limit(limit);
+
+  const total = await User.countDocuments({ createdBy: distributorId, userType: "Retailer" });
+
+  successHandler(req, res, {
+    Remarks: "Retailers fetched successfully",
+    Data: {
+      retailers,
+      pagination: {
+        total,
+        page,
+        limit,
+        totalPages: Math.ceil(total / limit),
+      },
+    },
+  });
+});
+
 // ======================= SET DISTRIBUTOR COMMISSION =======================
 const setDistributorCommission = asyncHandler(async (req, res) => {
   const { distributorId, serviceType, serviceName, commission, symbol } = req.body;
@@ -289,6 +318,7 @@ const toggleCommissionStatus = asyncHandler(async (req, res) => {
 module.exports = {
   createDistributor,
   getAllDistributors,
+  getDistributorRetailers,
   setDistributorCommission,
   getDistributorCommissions,
   getDistributorEarnings,
