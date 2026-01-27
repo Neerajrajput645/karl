@@ -3,6 +3,7 @@ const { adminTokenVerify } = require("../common/tokenVerify");
 const {
   createDistributor,
   getAllDistributors,
+  getDistributorRetailers,
   setDistributorCommission,
   getDistributorCommissions,
   getDistributorEarnings,
@@ -13,6 +14,7 @@ const {
 // ========================= Admin Distributor Routes =========================
 router.post("/create", adminTokenVerify, createDistributor);
 router.get("/list", adminTokenVerify, getAllDistributors);
+router.get("/retailers/:distributorId", adminTokenVerify, getDistributorRetailers);
 router.post("/set-commission", adminTokenVerify, setDistributorCommission);
 router.get("/commissions/:distributorId", adminTokenVerify, getDistributorCommissions);
 router.get("/earnings/:distributorId", adminTokenVerify, getDistributorEarnings);
