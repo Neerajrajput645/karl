@@ -955,9 +955,11 @@ const dthRequest = asyncHandler(async (req, res) => {
     throw new Error("Minimum Amount for Videocon should be greater than 200");
   }
   else if (operator == 24 && txnAmount < 100) {
+    console.log("Minimum Amount for Airtel Digital TV should be greater than 200");
     res.status(400);
     throw new Error("Minimum Amount for Dish TV should be greater than 200");
   }
+
   const walletFound = await Wallet.findOne({ userId: _id });
   // const orderId = generateOrderId();
   if (type === "wallet" && !transactionId) {
@@ -1012,9 +1014,9 @@ const dthRequest = asyncHandler(async (req, res) => {
     const dthurl = "https://planapi.in/api/Mobile/DthInfoWithLastRechargeDate"; // for more details
 
     const { data } = await axios.get(dthurl, { params: detailsParams });
-    userName = data.DATA.Name;
+    userName = data.DATA?.Name;
     console.log("------------------------------------------------------------------");
-    console.log(data.DATA.Name, "dth details data");
+    console.log(data.DATA?.Name, "dth details data");
     console.log("------------------------------------------------------------------");
   }
   catch (error) {
@@ -2643,7 +2645,7 @@ const dthOperatorList = asyncHandler(async(req, res)=>{
       operatorImage: "https://static.mobikwik.com/appdata/operator_icons/op23.png"
     }));
 
-    console.log("end")
+    console.log("end - ", operators);
     return res.status(200).json({
       success: true,
       message: "DTH operators fetched successfully",

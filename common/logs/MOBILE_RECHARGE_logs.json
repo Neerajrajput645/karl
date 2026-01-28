@@ -4966,5 +4966,1342 @@
       "BUYERCOMMISSION": 0
     },
     "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP96384456, Status: success"
+  },
+  {
+    "LogTime": "2026-01-24T08:10:34.928Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9365543171",
+      "Operator_code": "JL",
+      "Amount": 299,
+      "Member_request_txnid": "TXNPP97970444",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "213669561",
+      "OPTRANSID": "BR000D6PRMXC",
+      "MEMBERREQID": "TXNPP97970444",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "9365543171",
+      "AMOUNT": "299",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "2706.89",
+      "CLOSINGBAL": "2407.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP97970444, Status: success"
+  },
+  {
+    "LogTime": "2026-01-24T10:49:27.868Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9365225198",
+      "Operator_code": "JL",
+      "Amount": 299,
+      "Member_request_txnid": "TXNPPB28AE7F7",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "213721789",
+      "OPTRANSID": "BR000D6QDIBI",
+      "MEMBERREQID": "TXNPPB28AE7F7",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "9365225198",
+      "AMOUNT": "299",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "2407.89",
+      "CLOSINGBAL": "2108.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPB28AE7F7, Status: success"
+  },
+  {
+    "LogTime": "2026-01-24T12:55:07.087Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "6000043828",
+      "Operator_code": "AT",
+      "Amount": 299,
+      "Member_request_txnid": "TXNPP1D8463DD",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "213769513",
+      "OPTRANSID": "1361381126",
+      "MEMBERREQID": "TXNPP1D8463DD",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "6000043828",
+      "AMOUNT": "299",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "3488.72",
+      "CLOSINGBAL": "3189.72",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP1D8463DD, Status: success"
+  },
+  {
+    "LogTime": "2026-01-24T12:55:49.334Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9126769942",
+      "Operator_code": "AT",
+      "Amount": 199,
+      "Member_request_txnid": "TXNPP39301750",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "213769789",
+      "OPTRANSID": "1361406165",
+      "MEMBERREQID": "TXNPP39301750",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "9126769942",
+      "AMOUNT": "199",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "3189.72",
+      "CLOSINGBAL": "2990.72",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP39301750, Status: success"
+  },
+  {
+    "LogTime": "2026-01-25T02:53:53.919Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9859509901",
+      "Operator_code": "AT",
+      "Amount": 349,
+      "Member_request_txnid": "TXNPPF299CC2F",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "213877400",
+      "OPTRANSID": "1366650281",
+      "MEMBERREQID": "TXNPPF299CC2F",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "10.261",
+      "MOBILENO": "9859509901",
+      "AMOUNT": "349",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2990.72",
+      "CLOSINGBAL": "2641.72",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPF299CC2F, Status: success"
+  },
+  {
+    "LogTime": "2026-01-25T09:59:57.984Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9101187238",
+      "Operator_code": "AT",
+      "Amount": 349,
+      "Member_request_txnid": "TXNPPDC57FE00",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214022502",
+      "OPTRANSID": "1372486823",
+      "MEMBERREQID": "TXNPPDC57FE00",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "9101187238",
+      "AMOUNT": "349",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2651.98",
+      "CLOSINGBAL": "2302.98",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPDC57FE00, Status: success"
+  },
+  {
+    "LogTime": "2026-01-25T10:21:01.283Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8472878300",
+      "Operator_code": "AT",
+      "Amount": 22,
+      "Member_request_txnid": "TXNPPF6E1E21B",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214027481",
+      "OPTRANSID": "1372712884",
+      "MEMBERREQID": "TXNPPF6E1E21B",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "",
+      "MOBILENO": "8472878300",
+      "AMOUNT": "22",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2302.98",
+      "CLOSINGBAL": "2280.98",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPF6E1E21B, Status: success"
+  },
+  {
+    "LogTime": "2026-01-25T13:14:34.829Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9864288259",
+      "Operator_code": "JL",
+      "Amount": 349,
+      "Member_request_txnid": "TXNPPFE3406C1",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214091118",
+      "OPTRANSID": "BR000CJ2EC5H",
+      "MEMBERREQID": "TXNPPFE3406C1",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "9864288259",
+      "AMOUNT": "349",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "2108.89",
+      "CLOSINGBAL": "1759.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPFE3406C1, Status: success"
+  },
+  {
+    "LogTime": "2026-01-25T14:11:06.706Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8011644883",
+      "Operator_code": "AT",
+      "Amount": 299,
+      "Member_request_txnid": "TXNPPC387FB3B",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214114682",
+      "OPTRANSID": "1377088423",
+      "MEMBERREQID": "TXNPPC387FB3B",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "8011644883",
+      "AMOUNT": "299",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2280.98",
+      "CLOSINGBAL": "1981.98",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPC387FB3B, Status: success"
+  },
+  {
+    "LogTime": "2026-01-25T16:00:50.686Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8871265906",
+      "Operator_code": "JL",
+      "Amount": 10,
+      "Member_request_txnid": "PP1769356800215",
+      "Circle": "101"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 3,
+      "ORDERID": "214140893",
+      "OPTRANSID": null,
+      "MEMBERREQID": "PP1769356800215",
+      "MESSAGE": "RECHARGE AMOUNT NOT FOUND",
+      "COMMISSION": null,
+      "MOBILENO": "8871265906",
+      "AMOUNT": "10",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "0",
+      "CLOSINGBAL": "0",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: PP1769356800215, Status: failed"
+  },
+  {
+    "LogTime": "2026-01-25T16:09:02.307Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8871265906",
+      "Operator_code": "JL",
+      "Amount": 10,
+      "Member_request_txnid": "TXNPPBEDCDC92",
+      "Circle": "101"
+    },
+    "Response_Data": {
+      "ERROR": "120",
+      "STATUS": 3,
+      "ORDERID": "0",
+      "OPTRANSID": null,
+      "MEMBERREQID": "TXNPPBEDCDC92",
+      "MESSAGE": "RECHARGE AMOUNT NOT FOUND",
+      "COMMISSION": null,
+      "MOBILENO": "8871265906",
+      "AMOUNT": "10",
+      "LAPUNO": null,
+      "OPNINGBAL": null,
+      "CLOSINGBAL": null,
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPBEDCDC92, Status: failed"
+  },
+  {
+    "LogTime": "2026-01-25T16:27:31.406Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8871265906",
+      "Operator_code": "JL",
+      "Amount": 10,
+      "Member_request_txnid": "TXNPP1D805F67",
+      "Circle": "101"
+    },
+    "Response_Data": {
+      "ERROR": "120",
+      "STATUS": 3,
+      "ORDERID": "0",
+      "OPTRANSID": null,
+      "MEMBERREQID": "TXNPP1D805F67",
+      "MESSAGE": "RECHARGE AMOUNT NOT FOUND",
+      "COMMISSION": null,
+      "MOBILENO": "8871265906",
+      "AMOUNT": "10",
+      "LAPUNO": null,
+      "OPNINGBAL": null,
+      "CLOSINGBAL": null,
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP1D805F67, Status: failed"
+  },
+  {
+    "LogTime": "2026-01-25T16:31:33.681Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "6261119745",
+      "Operator_code": "JL",
+      "Amount": 10,
+      "Member_request_txnid": "TXNPP66445876",
+      "Circle": "101"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 3,
+      "ORDERID": "214144495",
+      "OPTRANSID": null,
+      "MEMBERREQID": "TXNPP66445876",
+      "MESSAGE": "Try again",
+      "COMMISSION": null,
+      "MOBILENO": "6261119745",
+      "AMOUNT": "10",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "0",
+      "CLOSINGBAL": "0",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP66445876, Status: failed"
+  },
+  {
+    "LogTime": "2026-01-25T16:32:55.008Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8109635835",
+      "Operator_code": "JL",
+      "Amount": 10,
+      "Member_request_txnid": "TXNPP78385708",
+      "Circle": "101"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214144584",
+      "OPTRANSID": "BR000D6WH0W4",
+      "MEMBERREQID": "TXNPP78385708",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8109635835",
+      "AMOUNT": "10",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1759.89",
+      "CLOSINGBAL": "1749.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP78385708, Status: success"
+  },
+  {
+    "LogTime": "2026-01-25T19:55:46.198Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8109635835",
+      "Operator_code": "JL",
+      "Amount": 10,
+      "Member_request_txnid": "PP1769370906428",
+      "Circle": "101"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214160226",
+      "OPTRANSID": "BR000CJ2ZFOT",
+      "MEMBERREQID": "PP1769370906428",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8109635835",
+      "AMOUNT": "10",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1749.89",
+      "CLOSINGBAL": "1739.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: PP1769370906428, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T01:59:09.928Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9577106955",
+      "Operator_code": "AT",
+      "Amount": 199,
+      "Member_request_txnid": "TXNPPB967EE7D",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214173066",
+      "OPTRANSID": "1379497995",
+      "MEMBERREQID": "TXNPPB967EE7D",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "9577106955",
+      "AMOUNT": "199",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "1981.98",
+      "CLOSINGBAL": "1782.98",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPB967EE7D, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T03:22:18.655Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9957784051",
+      "Operator_code": "AT",
+      "Amount": 299,
+      "Member_request_txnid": "TXNPPE80F5120",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214193813",
+      "OPTRANSID": "1380147839",
+      "MEMBERREQID": "TXNPPE80F5120",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "1.465",
+      "MOBILENO": "9957784051",
+      "AMOUNT": "299",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "1782.98",
+      "CLOSINGBAL": "1483.98",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPE80F5120, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T03:23:15.675Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8134885752",
+      "Operator_code": "AT",
+      "Amount": 33,
+      "Member_request_txnid": "TXNPP1B6E5D4A",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214194053",
+      "OPTRANSID": "1380166927",
+      "MEMBERREQID": "TXNPP1B6E5D4A",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "",
+      "MOBILENO": "8134885752",
+      "AMOUNT": "33",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "1485.45",
+      "CLOSINGBAL": "1452.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP1B6E5D4A, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T04:02:42.343Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8638673501",
+      "Operator_code": "JL",
+      "Amount": 29,
+      "Member_request_txnid": "TXNPP6C4059C4",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214208895",
+      "OPTRANSID": "BR000CJ35O5H",
+      "MEMBERREQID": "TXNPP6C4059C4",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8638673501",
+      "AMOUNT": "29",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1739.89",
+      "CLOSINGBAL": "1710.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP6C4059C4, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T04:32:28.453Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9954721443",
+      "Operator_code": "AT",
+      "Amount": 199,
+      "Member_request_txnid": "TXNPP304B0178",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214222882",
+      "OPTRANSID": "1381142320",
+      "MEMBERREQID": "TXNPP304B0178",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "9954721443",
+      "AMOUNT": "199",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "3306.45",
+      "CLOSINGBAL": "3107.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP304B0178, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T05:03:41.411Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "7896973446",
+      "Operator_code": "AT",
+      "Amount": 199,
+      "Member_request_txnid": "TXNPP57F49A84",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214236817",
+      "OPTRANSID": "1381653632",
+      "MEMBERREQID": "TXNPP57F49A84",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "7896973446",
+      "AMOUNT": "199",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "3107.45",
+      "CLOSINGBAL": "2908.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP57F49A84, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T06:06:23.594Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9957784851",
+      "Operator_code": "AT",
+      "Amount": 299,
+      "Member_request_txnid": "TXNPP4DEF01A5",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214266595",
+      "OPTRANSID": "1382715679",
+      "MEMBERREQID": "TXNPP4DEF01A5",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "9957784851",
+      "AMOUNT": "299",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2908.45",
+      "CLOSINGBAL": "2609.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP4DEF01A5, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T06:25:54.279Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8638673501",
+      "Operator_code": "JL",
+      "Amount": 29,
+      "Member_request_txnid": "TXNPP727920E3",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214275395",
+      "OPTRANSID": "BR000D6XKDTQ",
+      "MEMBERREQID": "TXNPP727920E3",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8638673501",
+      "AMOUNT": "29",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1710.89",
+      "CLOSINGBAL": "1681.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP727920E3, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T07:02:56.212Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8472862590",
+      "Operator_code": "JL",
+      "Amount": 19,
+      "Member_request_txnid": "TXNPPF88CCD4F",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214289550",
+      "OPTRANSID": "BR000CJ3FOZ7",
+      "MEMBERREQID": "TXNPPF88CCD4F",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8472862590",
+      "AMOUNT": "19",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1681.89",
+      "CLOSINGBAL": "1662.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPF88CCD4F, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T08:45:35.328Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "7637839473",
+      "Operator_code": "AT",
+      "Amount": 26,
+      "Member_request_txnid": "TXNPPC9492320",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214325680",
+      "OPTRANSID": "1384771068",
+      "MEMBERREQID": "TXNPPC9492320",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "",
+      "MOBILENO": "7637839473",
+      "AMOUNT": "26",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2609.45",
+      "CLOSINGBAL": "2583.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPC9492320, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T10:07:16.476Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8638673501",
+      "Operator_code": "JL",
+      "Amount": 29,
+      "Member_request_txnid": "TXNPP5ACE157F",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214347765",
+      "OPTRANSID": "BR000D6YH01S",
+      "MEMBERREQID": "TXNPP5ACE157F",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8638673501",
+      "AMOUNT": "29",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1662.89",
+      "CLOSINGBAL": "1633.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP5ACE157F, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T10:13:17.002Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.techember.in/app/recharges/main.php",
+    "Request_Data": {
+      "token": "099c047e337026f7b3567ccccbf5a0f3",
+      "number": "9401236815",
+      "op_uid": "vi",
+      "amount": 199,
+      "order_id": "PP1769422339381",
+      "type": "prepaid",
+      "circle": "56"
+    },
+    "Response_Data": {
+      "status": "success",
+      "order_id": "PP1769422339381",
+      "margin": "9.9500",
+      "margin_percentage": "5.0000",
+      "operator_ref_id": "RBR2601261543460056"
+    },
+    "Additional_Info": "Recharge response received from BILLHUB for TxnID: PP1769422339381, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T11:38:18.002Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9365839125",
+      "Operator_code": "JL",
+      "Amount": 19,
+      "Member_request_txnid": "TXNPP5E7B9E18",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214377734",
+      "OPTRANSID": "BR000D6YWMFQ",
+      "MEMBERREQID": "TXNPP5E7B9E18",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "9365839125",
+      "AMOUNT": "19",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1633.89",
+      "CLOSINGBAL": "1614.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP5E7B9E18, Status: success"
+  },
+  {
+    "LogTime": "2026-01-26T14:36:47.774Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9395562899",
+      "Operator_code": "JL",
+      "Amount": 19,
+      "Member_request_txnid": "TXNPPB149B774",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214452859",
+      "OPTRANSID": "BR000D709MQ2",
+      "MEMBERREQID": "TXNPPB149B774",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "9395562899",
+      "AMOUNT": "19",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1614.89",
+      "CLOSINGBAL": "1595.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPB149B774, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T03:20:58.449Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8638673501",
+      "Operator_code": "JL",
+      "Amount": 29,
+      "Member_request_txnid": "TXNPP1305F6E2",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214529126",
+      "OPTRANSID": "BR000CJ4SXWX",
+      "MEMBERREQID": "TXNPP1305F6E2",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8638673501",
+      "AMOUNT": "29",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1595.89",
+      "CLOSINGBAL": "1566.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP1305F6E2, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T05:22:05.887Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8638673501",
+      "Operator_code": "JL",
+      "Amount": 29,
+      "Member_request_txnid": "TXNPPBC63339C",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214585964",
+      "OPTRANSID": "BR000CJ4ZUOX",
+      "MEMBERREQID": "TXNPPBC63339C",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8638673501",
+      "AMOUNT": "29",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1566.89",
+      "CLOSINGBAL": "1537.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPBC63339C, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T06:31:39.428Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9394443991",
+      "Operator_code": "AT",
+      "Amount": 22,
+      "Member_request_txnid": "TXNPPCBCF3A9E",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214618152",
+      "OPTRANSID": "1397005451",
+      "MEMBERREQID": "TXNPPCBCF3A9E",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "",
+      "MOBILENO": "9394443991",
+      "AMOUNT": "22",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2583.45",
+      "CLOSINGBAL": "2561.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPCBCF3A9E, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T07:22:23.641Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8011395758",
+      "Operator_code": "AT",
+      "Amount": 199,
+      "Member_request_txnid": "TXNPP74662FC3",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214637105",
+      "OPTRANSID": "1397842413",
+      "MEMBERREQID": "TXNPP74662FC3",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "8011395758",
+      "AMOUNT": "199",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2561.45",
+      "CLOSINGBAL": "2362.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP74662FC3, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T09:22:44.503Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "7637988548",
+      "Operator_code": "AT",
+      "Amount": 22,
+      "Member_request_txnid": "TXNPPCD143C47",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214680264",
+      "OPTRANSID": "1399301304",
+      "MEMBERREQID": "TXNPPCD143C47",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "",
+      "MOBILENO": "7637988548",
+      "AMOUNT": "22",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2362.45",
+      "CLOSINGBAL": "2340.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPCD143C47, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T10:57:55.804Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8134909223",
+      "Operator_code": "AT",
+      "Amount": 199,
+      "Member_request_txnid": "TXNPP632ED72A",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214718205",
+      "OPTRANSID": "1400519777",
+      "MEMBERREQID": "TXNPP632ED72A",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0.975",
+      "MOBILENO": "8134909223",
+      "AMOUNT": "199",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2340.45",
+      "CLOSINGBAL": "2141.45",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP632ED72A, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T11:01:36.593Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8638098203",
+      "Operator_code": "JL",
+      "Amount": 19,
+      "Member_request_txnid": "TXNPPDC7B1A50",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214719840",
+      "OPTRANSID": "BR000CJ5IXHN",
+      "MEMBERREQID": "TXNPPDC7B1A50",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8638098203",
+      "AMOUNT": "19",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1537.89",
+      "CLOSINGBAL": "1518.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPDC7B1A50, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T11:08:34.776Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8453986153",
+      "Operator_code": "AT",
+      "Amount": 199,
+      "Member_request_txnid": "TXNPPEA7C2039",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214723807",
+      "OPTRANSID": "1400679689",
+      "MEMBERREQID": "TXNPPEA7C2039",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "8453986153",
+      "AMOUNT": "199",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "2142.43",
+      "CLOSINGBAL": "1943.4299",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPEA7C2039, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T12:22:41.559Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8134095259",
+      "Operator_code": "AT",
+      "Amount": 349,
+      "Member_request_txnid": "TXNPPF542C7D0",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214763514",
+      "OPTRANSID": "1402369362",
+      "MEMBERREQID": "TXNPPF542C7D0",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "0",
+      "MOBILENO": "8134095259",
+      "AMOUNT": "349",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "1943.43",
+      "CLOSINGBAL": "1594.43",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPF542C7D0, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T12:24:26.271Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.techember.in/app/recharges/main.php",
+    "Request_Data": {
+      "token": "099c047e337026f7b3567ccccbf5a0f3",
+      "number": "9435412232",
+      "op_uid": "bsnl_topup",
+      "amount": 147,
+      "order_id": "PP1769516620738",
+      "type": "prepaid",
+      "circle": "56"
+    },
+    "Response_Data": {
+      "status": "success",
+      "order_id": "PP1769516620738",
+      "margin": "7.3500",
+      "margin_percentage": "5.0000",
+      "operator_ref_id": "7506175857"
+    },
+    "Additional_Info": "Recharge response received from BILLHUB for TxnID: PP1769516620738, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T12:24:53.524Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "9394443991",
+      "Operator_code": "AT",
+      "Amount": 22,
+      "Member_request_txnid": "TXNPPC6F74DF2",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214764464",
+      "OPTRANSID": "1402411610",
+      "MEMBERREQID": "TXNPPC6F74DF2",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "",
+      "MOBILENO": "9394443991",
+      "AMOUNT": "22",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "1594.43",
+      "CLOSINGBAL": "1572.43",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPPC6F74DF2, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T13:04:15.546Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "6900237328",
+      "Operator_code": "AT",
+      "Amount": 349,
+      "Member_request_txnid": "TXNPP34A1068D",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214783943",
+      "OPTRANSID": "1403446379",
+      "MEMBERREQID": "TXNPP34A1068D",
+      "MESSAGE": "Recharge Request is successfull!",
+      "COMMISSION": "10.261",
+      "MOBILENO": "6900237328",
+      "AMOUNT": "349",
+      "LAPUNO": "9435620153",
+      "OPNINGBAL": "1572.43",
+      "CLOSINGBAL": "1223.43",
+      "CALLBACKID": null,
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP34A1068D, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T13:54:10.880Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8099368894",
+      "Operator_code": "JL",
+      "Amount": 349,
+      "Member_request_txnid": "TXNPP33262F28",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214808746",
+      "OPTRANSID": "BR000CJ5VCE7",
+      "MEMBERREQID": "TXNPP33262F28",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8099368894",
+      "AMOUNT": "349",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1518.89",
+      "CLOSINGBAL": "1169.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP33262F28, Status: success"
+  },
+  {
+    "LogTime": "2026-01-27T13:59:08.100Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.techember.in/app/recharges/main.php",
+    "Request_Data": {
+      "token": "099c047e337026f7b3567ccccbf5a0f3",
+      "number": "9085693915",
+      "op_uid": "vi",
+      "amount": 149,
+      "order_id": "PP1769522306495",
+      "type": "prepaid",
+      "circle": "56"
+    },
+    "Response_Data": {
+      "status": "success",
+      "order_id": "PP1769522306495",
+      "margin": "5.9600",
+      "margin_percentage": "4.0000",
+      "operator_ref_id": "ASH2601271929470013"
+    },
+    "Additional_Info": "Recharge response received from BILLHUB for TxnID: PP1769522306495, Status: success"
+  },
+  {
+    "LogTime": "2026-01-28T05:38:40.922Z",
+    "API_Name": "MOBILE_RECHARGE",
+    "API_Endpoint": "https://api.roboticexchange.in/Robotics/webservice/GetMobileRecharge",
+    "Request_Data": {
+      "Apimember_id": "4350",
+      "Api_password": "Karl@123",
+      "Mobile_no": "8638673501",
+      "Operator_code": "JL",
+      "Amount": 29,
+      "Member_request_txnid": "TXNPP9D628955",
+      "Circle": "56"
+    },
+    "Response_Data": {
+      "ERROR": "0",
+      "STATUS": 1,
+      "ORDERID": "214967286",
+      "OPTRANSID": "BR000CJ6OMS5",
+      "MEMBERREQID": "TXNPP9D628955",
+      "MESSAGE": "Customer Balance Recharged Successfully",
+      "COMMISSION": null,
+      "MOBILENO": "8638673501",
+      "AMOUNT": "29",
+      "LAPUNO": "9365294445",
+      "OPNINGBAL": "1169.89",
+      "CLOSINGBAL": "1140.89",
+      "CALLBACKID": "CB",
+      "BUYERCOMMISSION": 0
+    },
+    "Additional_Info": "Recharge response received from EZTYM for TxnID: TXNPP9D628955, Status: success"
   }
 ]

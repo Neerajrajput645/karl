@@ -2130,5 +2130,101 @@
       }
     },
     "Additional_Info": "Bill_Fetch Response Number: 16823357"
+  },
+  {
+    "LogTime": "2026-01-25T10:31:29.310Z",
+    "API_Name": "BILL_FETCH",
+    "API_Endpoint": "https://api.techember.in/app/bbps-bill-fetch.php",
+    "Request_Data": {
+      "number": "150010080822",
+      "operator": 1173
+    },
+    "Response_Data": {
+      "status": "success",
+      "data": {
+        "billAmount": "100.0",
+        "billnetamount": "100.0",
+        "billdate": "25 Jan 2026",
+        "dueDate": "2026-01-25",
+        "minBillAmount": 100,
+        "acceptPayment": true,
+        "acceptPartPay": true,
+        "cellNumber": "150010080822",
+        "userName": "JALANDAR SINGHA"
+      }
+    },
+    "Additional_Info": "Bill_Fetch Response Number: 150010080822"
+  },
+  {
+    "LogTime": "2026-01-25T10:32:03.887Z",
+    "API_Name": "BILL_FETCH",
+    "API_Endpoint": "https://api.techember.in/app/bbps-bill-fetch.php",
+    "Request_Data": {
+      "number": "150010080822",
+      "operator": 1173
+    },
+    "Response_Data": {
+      "status": "success",
+      "data": {
+        "billAmount": "100.0",
+        "billnetamount": "100.0",
+        "billdate": "25 Jan 2026",
+        "dueDate": "2026-01-25",
+        "minBillAmount": 100,
+        "acceptPayment": true,
+        "acceptPartPay": true,
+        "cellNumber": "150010080822",
+        "userName": "JALANDAR SINGHA"
+      }
+    },
+    "Additional_Info": "Bill_Fetch Response Number: 150010080822"
+  },
+  {
+    "LogTime": "2026-01-25T10:32:32.711Z",
+    "API_Name": "BILL_FETCH",
+    "API_Endpoint": "https://api.techember.in/app/bbps-bill-fetch.php",
+    "Request_Data": {
+      "number": "150010080822",
+      "operator": 1173
+    },
+    "Response_Data": {
+      "status": "success",
+      "data": {
+        "billAmount": "100.0",
+        "billnetamount": "100.0",
+        "billdate": "25 Jan 2026",
+        "dueDate": "2026-01-25",
+        "minBillAmount": 100,
+        "acceptPayment": true,
+        "acceptPartPay": true,
+        "cellNumber": "150010080822",
+        "userName": "JALANDAR SINGHA"
+      }
+    },
+    "Additional_Info": "Bill_Fetch Response Number: 150010080822"
+  },
+  {
+    "LogTime": "2026-01-25T10:33:09.204Z",
+    "API_Name": "BILL_FETCH",
+    "API_Endpoint": "https://api.techember.in/app/bbps-bill-fetch.php",
+    "Request_Data": {
+      "number": "150010080822",
+      "operator": 1173
+    },
+    "Response_Data": {
+      "status": "success",
+      "data": {
+        "billAmount": "100.0",
+        "billnetamount": "100.0",
+        "billdate": "25 Jan 2026",
+        "dueDate": "2026-01-25",
+        "minBillAmount": 100,
+        "acceptPayment": true,
+        "acceptPartPay": true,
+        "cellNumber": "150010080822",
+        "userName": "JALANDAR SINGHA"
+      }
+    },
+    "Additional_Info": "Bill_Fetch Response Number: 150010080822"
   }
 ]
