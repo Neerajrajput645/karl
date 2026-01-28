@@ -106,7 +106,9 @@ const userList = asyncHandler(async (req, res) => {
     .sort(sortOption)
     .skip((page - 1) * limit)
     .limit(limit)
-    .populate("wallet", "balance");
+    .limit(limit)
+    .populate("wallet", "balance")
+    .populate("createdBy", "firstName lastName phone");
 
   // 🔐 Decrypt MPIN Safely
   allUsers = allUsers.map((user) => {
@@ -329,6 +331,56 @@ const updateMpin = asyncHandler(async (req, res) => {
 });
 
 
+
+// ============================ UPDATE USER DISTRIBUTOR BY ADMIN ============================ //
+const updateUserDistributor = asyncHandler(async (req, res) => {
+  const { userId, distributorId } = req.body;
+
+  // Validate inputs
+  if (!userId) {
+    res.status(400);
+    throw new Error("UserId is required");
+  }
+
+  // Find user
+  const user = await User.findById(userId);
+  if (!user) {
+    res.status(404);
+    throw new Error("User not found");
+  }
+
+  // If removing distributor (setting to null)
+  if (!distributorId) {
+    await User.updateOne({ _id: userId }, { $set: { createdBy: null } });
+    return successHandler(req, res, { 
+      Remarks: "User removed from distributor successfully",
+      Data: { createdBy: null }
+    });
+  }
+
+  // Validate distributor
+  const distributor = await User.findById(distributorId);
+  if (!distributor || distributor.userType !== "Distributor") {
+    res.status(400);
+    throw new Error("Invalid distributor ID");
+  }
+
+  // Update user
+  await User.updateOne({ _id: userId }, { $set: { createdBy: distributorId } });
+
+  successHandler(req, res, { 
+    Remarks: `User assigned to distributor ${distributor.firstName} ${distributor.lastName}`,
+    Data: { 
+      createdBy: {
+        _id: distributor._id,
+        firstName: distributor.firstName,
+        lastName: distributor.lastName,
+        phone: distributor.phone
+      }
+    }
+  });
+});
+
 module.exports = {
   userProfile,
   referList,
@@ -340,4 +392,5 @@ module.exports = {
   forgotMpin,
   verifyOTP,
   updateMpin,
+  updateUserDistributor,
 };
