@@ -315,6 +315,49 @@ const toggleCommissionStatus = asyncHandler(async (req, res) => {
   });
 });
 
+// ======================= SET GLOBAL COMMISSION =======================
+const setGlobalCommission = asyncHandler(async (req, res) => {
+  const { serviceType, serviceName, commission, symbol } = req.body;
+
+  if (!serviceType || !serviceName || commission === undefined) {
+    res.status(400);
+    throw new Error("serviceType, serviceName, and commission are required");
+  }
+
+  // Find all distributors
+  const distributors = await User.find({ userType: "Distributor" }).select("_id");
+
+  if (!distributors.length) {
+    return successHandler(req, res, {
+      Remarks: "No distributors found to update",
+      Data: null,
+    });
+  }
+
+  // Update commission for each distributor
+  const updates = distributors.map((distributor) => {
+    return DistributorCommission.findOneAndUpdate(
+      { distributorId: distributor._id, serviceType, serviceName },
+      {
+        distributorId: distributor._id,
+        serviceType,
+        serviceName,
+        commission,
+        symbol: symbol || "%",
+        status: true,
+      },
+      { upsert: true, new: true }
+    );
+  });
+
+  await Promise.all(updates);
+
+  successHandler(req, res, {
+    Remarks: `Commission updated for all ${distributors.length} distributors`,
+    Data: { count: distributors.length },
+  });
+});
+
 module.exports = {
   createDistributor,
   getAllDistributors,
@@ -324,4 +367,5 @@ module.exports = {
   getDistributorEarnings,
   deleteDistributorCommission,
   toggleCommissionStatus,
+  setGlobalCommission,
 };

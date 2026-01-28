@@ -9,6 +9,7 @@ const {
   getDistributorEarnings,
   deleteDistributorCommission,
   toggleCommissionStatus,
+  setGlobalCommission,
 } = require("../controllers/adminDistributor");
 
 // ========================= Admin Distributor Routes =========================
@@ -20,5 +21,6 @@ router.get("/commissions/:distributorId", adminTokenVerify, getDistributorCommis
 router.get("/earnings/:distributorId", adminTokenVerify, getDistributorEarnings);
 router.delete("/commission/:commissionId", adminTokenVerify, deleteDistributorCommission);
 router.patch("/commission/:commissionId/toggle-status", adminTokenVerify, toggleCommissionStatus);
+router.post("/set-global-commission", adminTokenVerify, setGlobalCommission);
 
 module.exports = router;
