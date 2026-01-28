@@ -175,9 +175,33 @@ const getEarningsSummary = asyncHandler(async (req, res) => {
   });
 });
 
+// ======================= GET COMMISSION RATES =======================
+const getCommissionRates = asyncHandler(async (req, res) => {
+  const { _id } = req.data;
+  
+  const rates = await require("../models/distributorCommissionSchema").find({ 
+    distributorId: _id,
+    status: true 
+  }).sort({ serviceType: 1, serviceName: 1 });
+
+  // Group by service type
+  const groupedRates = rates.reduce((acc, rate) => {
+    const type = rate.serviceType || "others";
+    if (!acc[type]) acc[type] = [];
+    acc[type].push(rate);
+    return acc;
+  }, {});
+
+  successHandler(req, res, {
+    Remarks: "Commission rates fetched successfully",
+    Data: groupedRates,
+  });
+});
+
 module.exports = {
   createRetailer,
   getMyRetailers,
   getMyEarnings,
   getEarningsSummary,
+  getCommissionRates,
 };

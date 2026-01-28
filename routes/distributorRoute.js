@@ -5,6 +5,7 @@ const {
   getMyRetailers,
   getMyEarnings,
   getEarningsSummary,
+  getCommissionRates,
 } = require("../controllers/distributor");
 
 // Middleware to check if user is a distributor
@@ -26,5 +27,6 @@ router.post("/create-retailer", tokenVerify, isDistributor, createRetailer);
 router.get("/my-retailers", tokenVerify, isDistributor, getMyRetailers);
 router.get("/my-earnings", tokenVerify, isDistributor, getMyEarnings);
 router.get("/earnings-summary", tokenVerify, isDistributor, getEarningsSummary);
+router.get("/commission-rates", tokenVerify, isDistributor, getCommissionRates);
 
 module.exports = router;
