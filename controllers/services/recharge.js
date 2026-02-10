@@ -1915,6 +1915,51 @@ const Recharge_CallBack_Handler = asyncHandler(async (req, res) => {
           }
         }
 
+        // ========== Distributor Commission ==========
+        if (userFound.userType === "Retailer" && userFound.createdBy) {
+          console.log("Processing Distributor Commission for Retailer (Webhook):", userFound._id);
+          try {
+            const distributor = await Users.findById(userFound.createdBy);
+            const findOperator = All_Recharge_Operator_List.find(
+              (a) => a.PlanApi_Operator_code == findRecord.operator
+            );
+
+            if (distributor && distributor.userType === "Distributor" && findOperator) {
+              const distCommission = await DistributorCommission.findOne({
+                distributorId: distributor._id,
+                serviceType: "mobile",
+                serviceName: findOperator.com_name,
+                status: true,
+              });
+              
+              if (distCommission) {
+                let commissionAmount = distCommission.commission;
+                if (distCommission.symbol === "%") {
+                  commissionAmount = (findTxn.txnAmount / 100) * distCommission.commission;
+                }
+                commissionAmount = parseFloat(commissionAmount.toFixed(2));
+                
+                console.log("Distributor Commission Amount (Webhook):", commissionAmount);
+                await handleDistributorCommission(
+                  distributor,
+                  userFound,
+                  commissionAmount,
+                  TransID,
+                  "mobile",
+                  findOperator.com_name,
+                  findTxn.txnAmount,
+                  getIpAddress(req)
+                );
+              } else {
+                console.log("No distributor commission configured for:", findOperator.com_name);
+              }
+            }
+          } catch (distError) {
+            console.error("Error processing distributor commission (Webhook):", distError);
+          }
+        }
+        // ========== End Distributor Commission ==========
+
         // Apply cashback if amount > 0
         if (cashbackAmount > 0 && findRecord.isPrepaid) {
           await handleCashback(
